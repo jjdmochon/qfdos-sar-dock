@@ -38,10 +38,17 @@ function dialogoIA(titulo, texto) {
     <p class="sub">El texto ya está copiado. Pégalo en la IA de tu cuenta UGR y guarda en el cuaderno lo que te sirva.
     Recuerda declarar en el informe qué preguntaste y qué usaste.</p>
     <pre>${esc(texto)}</pre>
-    <div class="fila">${ENLACES.map((e) => `<a class="btn ia" href="${e.url}" target="_blank" rel="noopener">${e.nombre}</a>`).join("")}
+    <div class="fila">${enlaceCuadernoTema(E.ficha?.tema, "btn teal")}${ENLACES.map((e) => `<a class="btn ia" href="${e.url}" target="_blank" rel="noopener">${e.nombre}</a>`).join("")}
       <button class="btn" id="dlg-cerrar" style="margin-left:auto">Cerrar</button></div>`;
   $("#dlg-cerrar").onclick = () => d.close();
   d.showModal();
+}
+
+/** Cuaderno de NotebookLM del curso para un tema (data/notebooks.json), si ya está publicado. */
+function enlaceCuadernoTema(tema, clase = "btn teal peq") {
+  const nb = tema != null ? E.notebooks[String(tema)] : null;
+  return nb ? `<a class="${clase}" href="${esc(nb.url)}" target="_blank" rel="noopener"
+    title="Cuaderno de NotebookLM del curso con el material del Tema ${tema}">Cuaderno del Tema ${tema} (NotebookLM)</a>` : "";
 }
 
 async function preguntarIA(titulo, texto) {
@@ -54,6 +61,7 @@ async function preguntarIA(titulo, texto) {
 // ---------------------------------------------------------------- estado
 const E = {
   dianas: [],
+  notebooks: {},
   clave: null,
   ficha: null,
   recPdb: null,
@@ -169,6 +177,7 @@ async function pantallaDianas(s) {
       <span class="lig">Ligando del cristal: <b>${esc(d.ligando)}</b></span>
       <span class="pie"><span class="chip">PDB ${d.pdb}</span><span class="chip teal">${esc(d.metodo)}</span>
       ${d.organismo && d.organismo !== "humano" ? `<span class="chip amber">proteína de ${esc(d.organismo)}</span>` : ""}
+      ${E.notebooks[String(d.tema)] ? `<span class="chip teal" title="El tema tiene cuaderno de NotebookLM del curso">NotebookLM</span>` : ""}
       <span class="chip ${d.rmsd_ref < 2 ? "" : "amber"}" title="Redocking: RMSD de la mejor pose de Vina frente al cristal">RMSD ${fmt(d.rmsd_ref)} Å</span></span>`;
     b.onclick = async () => {
       const actual = cuaderno.get().diana;
@@ -301,6 +310,7 @@ async function prepararLab(s) {
     ${f.organismo && f.organismo !== "humano" ? `<span class="chip amber" title="La secuencia del bolsillo puede diferir de la humana">proteína de ${esc(f.organismo)}</span>` : ""}
     <span class="chip">${esc(f.ligando)}: ${fmt(f.redocking.vina_kcal_mol[0])} kcal/mol</span>
     <button class="btn ia peq" id="b-ia-diana">Preguntar a la IA por el farmacóforo</button>
+    ${enlaceCuadernoTema(f.tema)}
     <p class="sub" style="width:100%;margin:4px 0 0">${esc(f.nota)}</p>
     ${avisoRedocking(f)}`;
   $("#b-ia-diana", s).onclick = () => preguntarIA("Farmacóforo de la diana", promptDiana(f));
@@ -733,9 +743,10 @@ async function pantallaGuia(s) {
       <h2>IA con vuestra cuenta UGR</h2>
       <p>Con la cuenta <b>@go.ugr.es</b> tenéis Gemini y NotebookLM (Google Workspace de la UGR) y Microsoft Copilot.
       Esta página no envía nada a ninguna IA: los botones «IA» copian un texto con el contexto de vuestra diana y lo pegáis vosotros.</p>
-      <div class="fila" style="margin:10px 0">${ENLACES.map((e) => `<a class="btn ia" href="${e.url}" target="_blank" rel="noopener" title="${esc(e.nota)}">${e.nombre}</a>`).join("")}</div>
+      <div class="fila" style="margin:10px 0">${Object.keys(E.notebooks).filter((k) => /^\d+$/.test(k)).sort((a, b) => a - b).map((t) => enlaceCuadernoTema(t, "btn teal")).join("")}${ENLACES.map((e) => `<a class="btn ia" href="${e.url}" target="_blank" rel="noopener" title="${esc(e.nota)}">${e.nombre}</a>`).join("")}</div>
       <h3>Para qué sí</h3>
-      <ul><li><b>NotebookLM</b>: cread un cuaderno con el artículo del cristal, una revisión de SAR de la familia y el tema del curso, y preguntadle con fuentes citadas.</li>
+      <ul><li><b>NotebookLM</b>: los temas que ya tienen cuaderno del curso aparecen enlazados aquí y en el laboratorio. Usadlo como punto de partida
+        y cread además vuestro propio cuaderno con el artículo del cristal y una revisión de SAR de la familia, para preguntar con fuentes citadas.</li>
         <li><b>Gemini o Copilot</b>: proponer modificaciones razonadas, discutir resultados, revisar la química de una idea.</li>
         <li>Pedidle estructuras <b>en SMILES</b> y comprobadlas aquí: si el SMILES no es válido o la molécula no es la que dice, se ve al instante.</li></ul>
       <h3>Para qué no</h3>
@@ -752,6 +763,7 @@ async function pantallaGuia(s) {
 async function iniciar() {
   try {
     E.dianas = await getJSON("data/dianas.json");
+    E.notebooks = await getJSON("data/notebooks.json").catch(() => ({}));
   } catch (e) {
     app.innerHTML = `<div class="aviso warn">No se pudieron cargar los datos de las dianas (${esc(e.message)}).</div>`;
     return;

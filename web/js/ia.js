@@ -3,7 +3,7 @@
 
 export const ENLACES = [
   { nombre: "Gemini", url: "https://gemini.google.com/app", nota: "con tu cuenta @go.ugr.es" },
-  { nombre: "NotebookLM", url: "https://notebooklm.google.com/", nota: "cuaderno con las fuentes de tu diana" },
+  { nombre: "NotebookLM", url: "https://notebook.google.com/", nota: "cuaderno con las fuentes de tu diana" },
   { nombre: "Copilot", url: "https://copilot.microsoft.com/", nota: "inicia sesión con la cuenta UGR" },
 ];
 
