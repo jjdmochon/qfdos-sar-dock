@@ -65,7 +65,7 @@ prep/.venv/Scripts/python.exe "<repo del curso>/scripts/series_sar_dock.py" --ou
 | 3Dmol.js | 2.5.5 | BSD-3-Clause | Visor 3D |
 | RDKit.js (MinimalLib) | 2025.03.4 | BSD-3-Clause | Descriptores, dibujo 2D, similitud |
 | JSME | 2024-04-29 | BSD-3-Clause | Editor de estructuras 2D |
-| Montserrat y Roboto Mono (Fontsource) | variable | OFL-1.1 | Tipografía |
+| Montserrat (Fontsource) | variable | OFL-1.1 | Tipografía (texto, SMILES y cifras) |
 | coi-serviceworker | 0.1.7 | MIT | Cabeceras COOP/COEP en GitHub Pages |
 
 Estructuras de RCSB PDB y datos de actividad de ChEMBL (CC BY-SA 3.0).
