@@ -8,12 +8,12 @@ const AROMATICOS = new Set(["PHE", "TYR", "TRP", "HIS"]);
 const METALES = new Set(["Zn", "ZN", "Mg", "MG", "Ca", "CA", "Fe", "FE", "Mn", "MN"]);
 
 export const TIPOS = {
-  metal: { etiqueta: "coordinación metálica", prioridad: 6, color: "#8b5cf6" },
-  salino: { etiqueta: "puente salino", prioridad: 5, color: "#f97316" },
-  cationpi: { etiqueta: "catión-π", prioridad: 4, color: "#db2777" },
-  hbond: { etiqueta: "puente de H", prioridad: 3, color: "#0d9488" },
-  pi: { etiqueta: "aromática (π)", prioridad: 2, color: "#3b82f6" },
-  hidrofobo: { etiqueta: "hidrófoba", prioridad: 1, color: "#94a3b8" },
+  metal: { etiqueta: "coordinación metálica", corto: "metal", prioridad: 6, color: "#8b5cf6" },
+  salino: { etiqueta: "puente salino", corto: "salino", prioridad: 5, color: "#f97316" },
+  cationpi: { etiqueta: "catión-π", corto: "catión-π", prioridad: 4, color: "#db2777" },
+  hbond: { etiqueta: "puente de H", corto: "puente H", prioridad: 3, color: "#0d9488" },
+  pi: { etiqueta: "aromática (π)", corto: "π", prioridad: 2, color: "#3b82f6" },
+  hidrofobo: { etiqueta: "hidrófoba", corto: "hidrófoba", prioridad: 1, color: "#94a3b8" },
 };
 
 /** Átomos de un PDBQT: {nombre, res, cadena, num, x, y, z, tipo, carga, el} */

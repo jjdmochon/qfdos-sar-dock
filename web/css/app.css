@@ -86,7 +86,7 @@ input.mono { font-family: var(--mono); font-size: .85rem; }
 /* ---------------------------------------------------------------- laboratorio */
 .cab-diana { display: flex; gap: 12px; align-items: baseline; flex-wrap: wrap; margin-bottom: 12px; }
 .cab-diana h2 { margin: 0; }
-.lab { display: grid; grid-template-columns: minmax(300px, 380px) minmax(0, 1fr) minmax(280px, 360px); gap: 14px; align-items: start; }
+.lab { display: grid; grid-template-columns: minmax(300px, 380px) minmax(0, 1fr) minmax(300px, 400px); gap: 14px; align-items: start; }
 .lab > * { min-width: 0; }
 #jsme { width: 100%; height: 300px; border: 1px solid var(--line); border-radius: var(--r2); overflow: hidden; background: #fff; }
 .visor-wrap { position: relative; }
@@ -155,3 +155,5 @@ footer { max-width: 1440px; margin: 10px auto 30px; padding: 0 20px; font-size: 
   .entrada { grid-template-columns: 1fr; }
   .props { grid-template-columns: repeat(2, 1fr); }
 }
+#t-inter { font-size: .8rem; }
+#t-inter th, #t-inter td { padding: 5px 6px; white-space: nowrap; }

@@ -488,8 +488,9 @@ function mostrarInteracciones(r) {
   const f = E.ficha;
   const filas = r ? r.comparacion : comparar(E.refInter, E.refInter);
   const ref = E.serie.find((x) => x.referencia);
-  const badge = (t) => (t ? `<span class="punto" style="background:${TIPOS[t].color}"></span>${TIPOS[t].etiqueta}` : "—");
-  $("#t-inter").innerHTML = `<thead><tr><th>Residuo</th><th>${esc(f.ligando)} (cristal)</th>${r ? "<th>Análogo</th><th>Cambio</th>" : ""}</tr></thead><tbody>` +
+  // Con análogo la tabla tiene cuatro columnas en una tarjeta estrecha: etiquetas cortas
+  const badge = (t) => (t ? `<span class="punto" style="background:${TIPOS[t].color}"></span>${r ? TIPOS[t].corto : TIPOS[t].etiqueta}` : "—");
+  $("#t-inter").innerHTML = `<thead><tr><th>Residuo</th><th>${r ? "Cristal" : `${esc(f.ligando)} (cristal)`}</th>${r ? "<th>Análogo</th><th>Cambio</th>" : ""}</tr></thead><tbody>` +
     filas.map((x) => `<tr><td class="mono">${x.res}${x.num}</td><td>${badge(x.ref)}</td>${r ? `<td>${badge(x.ana)}</td><td class="estado ${x.estado}">${x.estado}</td>` : ""}</tr>`).join("") +
     "</tbody>";
   if (!r) {
@@ -585,7 +586,7 @@ function grafico(puntos) {
     <text x="${(W + m.l) / 2}" y="${H - 6}" text-anchor="middle">Vina (kcal/mol) · más negativo = mejor</text>
     <text transform="translate(12 ${(H - m.b) / 2}) rotate(-90)" text-anchor="middle">pChEMBL (experimental)</text>
     ${puntos.map((p) => `<g><circle cx="${X(p.x)}" cy="${Y(p.y)}" r="5.5" fill="${p.ref ? "#10b981" : "#1e3a8a"}" stroke="#fff" stroke-width="1.5"><title>${esc(p.n)}: ${fmt(p.x)} kcal/mol · pChEMBL ${fmt(p.y)}</title></circle>
-      <text x="${X(p.x) + 8}" y="${Y(p.y) - 6}" style="font-size:10px">${esc(p.n)}</text></g>`).join("")}
+      <text x="${X(p.x) > W - 110 ? X(p.x) - 8 : X(p.x) + 8}" y="${Y(p.y) - 6}" text-anchor="${X(p.x) > W - 110 ? "end" : "start"}" style="font-size:10px">${esc(p.n)}</text></g>`).join("")}
   </svg>
   <p class="sub">Correlación de Pearson: <b class="num">r = ${r == null ? "—" : fmt(r)}</b> (n = ${puntos.length}).
   Esperamos r negativo si Vina ordena bien (más negativo, más potente). Con docking, |r| &lt; 0,5 es lo habitual.</p>`;
