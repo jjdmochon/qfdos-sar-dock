@@ -99,6 +99,7 @@ async function navegar() {
     else a.removeAttribute("aria-current");
   }
   for (const [n, s] of Object.entries(secciones)) s.hidden = n !== ruta;
+  app.classList.toggle("ancho", ruta === "lab" || ruta === "sar");
   try {
     await f(seccion(ruta));
   } catch (e) {
@@ -140,7 +141,13 @@ async function pantallaDianas(s) {
     return;
   }
   s.innerHTML = `
-    <div class="dos" style="margin-bottom:16px">
+    <section class="hero">
+      <span class="kicker">Trabajo SAR-Dock · 5 % de la nota</span>
+      <h2>Relaciones estructura-actividad en el centro activo</h2>
+      <p>Una diana por grupo, del Tema 1 al Tema 10. Estudiad cómo se une el fármaco del cristal, diseñad análogos con un solo
+      cambio y acopladlos con AutoDock Vina en vuestro propio navegador.</p>
+    </section>
+    <div class="dos" style="margin-bottom:var(--space-2xl)">
       <div class="card">
         <h2>Vuestro grupo</h2>
         <p class="sub">El cuaderno se guarda en este navegador. Para trabajar entre varios, exportadlo e importadlo desde «Cuaderno».</p>
@@ -160,13 +167,15 @@ async function pantallaDianas(s) {
         </ol>
       </div>
     </div>
-    <h2>Dianas: una por tema</h2>
-    <div class="grid-dianas" id="lista-dianas"></div>`;
+    <section class="seccion-hub"><h2>Neurotransmisión: receptores y transportadores · Temas 1-7</h2>
+      <div class="grid-dianas" id="lista-dianas"></div></section>
+    <section class="seccion-hub"><h2>Enzimas y canales iónicos · Temas 8-10</h2>
+      <div class="grid-dianas" id="lista-dianas-2"></div></section>`;
   $("#g-nombre", s).oninput = (e) => { cuaderno.datos({ grupo: e.target.value.trim() }); cabecera(); };
   $("#g-miembros", s).oninput = (e) => cuaderno.datos({ miembros: e.target.value });
 
-  const lista = $("#lista-dianas", s);
   for (const d of E.dianas) {
+    const lista = $(d.tema <= 7 ? "#lista-dianas" : "#lista-dianas-2", s);
     const b = document.createElement("button");
     b.className = "card diana" + (d.clave === c.diana ? " sel" : "");
     b.dataset.clave = d.clave;
@@ -178,7 +187,7 @@ async function pantallaDianas(s) {
       <span class="pie"><span class="chip">PDB ${d.pdb}</span><span class="chip teal">${esc(d.metodo)}</span>
       ${d.organismo && d.organismo !== "humano" ? `<span class="chip amber">proteína de ${esc(d.organismo)}</span>` : ""}
       ${E.notebooks[String(d.tema)] ? `<span class="chip teal" title="El tema tiene cuaderno de NotebookLM del curso">NotebookLM</span>` : ""}
-      <span class="chip ${d.rmsd_ref < 2 ? "" : "amber"}" title="Redocking: RMSD de la mejor pose de Vina frente al cristal">RMSD ${fmt(d.rmsd_ref)} Å</span></span>`;
+      <span class="chip ${d.rmsd_ref < 2 ? "metric" : "amber"}" title="Redocking: RMSD de la mejor pose de Vina frente al cristal">RMSD ${fmt(d.rmsd_ref)} Å${d.rmsd_ref < 2 ? "" : " · revisar poses"}</span></span>`;
     b.onclick = async () => {
       const actual = cuaderno.get().diana;
       if (actual && actual !== d.clave && cuaderno.entradas(actual).length &&
@@ -244,7 +253,7 @@ function construirLab(s) {
           <select id="exh" style="width:auto"><option>4</option><option selected>8</option><option>16</option></select>
           <button class="btn primario" id="b-dock" ${docking ? "" : "disabled"} style="margin-left:auto">Acoplar</button>
         </div>
-        <div class="progreso" id="prog" hidden><div></div></div>
+        <div class="trabajando" id="prog" hidden>Calculando en vuestro ordenador…</div>
         <p class="sub" id="estado-dock"></p>
         <button class="btn ia" id="b-ia-diseno" style="width:100%;margin-top:6px">Pedir ideas de diseño a la IA</button>
       </div>
@@ -388,7 +397,7 @@ async function cambiarSmiles(smi, { desdeJSME = false } = {}) {
   }
   $("#b-dock").disabled = !dockingDisponible();
   $("#dibujo2d").innerHTML = dib ?? "";
-  const p = (v, t, alerta) => `<div class="prop" ${alerta ? 'style="border-color:#fcd34d;background:#fffbeb"' : ""}><b>${v}</b><span>${t}</span></div>`;
+  const p = (v, t, alerta) => `<div class="prop${alerta ? " alerta" : ""}"${alerta ? ' title="Fuera del intervalo de Lipinski/Veber"' : ""}><b>${v}</b><span>${t}</span></div>`;
   $("#props").innerHTML =
     p(fmt(d.mw, 1), "MW (g/mol)", d.mw > 500) + p(fmt(d.clogp), "cLogP", d.clogp > 5) + p(fmt(d.tpsa, 1), "TPSA (Å²)", d.tpsa > 140) +
     p(d.hbd, "Donadores de H", d.hbd > 5) + p(d.hba, "Aceptores de H", d.hba > 10) + p(d.rotb, "Enlaces rotables", d.rotb > 10) +
@@ -419,7 +428,6 @@ async function lanzarDocking() {
   const est = $("#estado-dock");
   btn.disabled = true;
   prog.hidden = false;
-  prog.classList.add("indet");
   const t0 = performance.now();
   const reloj = setInterval(() => (est.textContent = `${est.dataset.fase} · ${Math.round((performance.now() - t0) / 1000)} s`), 500);
   try {
@@ -505,10 +513,13 @@ function mostrarInteracciones(r) {
   const dif = r.kcalSel - refKcal;
   const n = (e) => filas.filter((x) => x.estado === e).length;
   $("#res-resumen").innerHTML = `
-    <div class="props" style="grid-template-columns:repeat(3,1fr)">
-      <div class="prop"><b>${fmt(r.kcalSel)}</b><span>kcal/mol (pose ${E.poseSel + 1})</span></div>
-      <div class="prop"><b>${dif > 0 ? "+" : ""}${fmt(dif)}</b><span>Δ frente a ${esc(f.ligando)}</span></div>
-      <div class="prop"><b>${fmt(-r.kcalSel / r.desc.pesados, 3)}</b><span>Eficiencia de ligando</span></div>
+    <div class="callout" style="margin-bottom:var(--space-sm)">
+      <div class="rotulo">AutoDock Vina · pose ${E.poseSel + 1}</div>
+      <div class="datos">
+        <div><b>${fmt(r.kcalSel)}</b><span>kcal/mol</span></div>
+        <div><b>${dif > 0 ? "+" : ""}${fmt(dif)}</b><span>Δ frente a ${esc(f.ligando)}</span></div>
+        <div><b>${fmt(-r.kcalSel / r.desc.pesados, 3)}</b><span>eficiencia de ligando</span></div>
+      </div>
     </div>
     <p class="sub">${n("perdida")} perdidas · ${n("nueva")} nuevas · ${n("debilitada")} debilitadas · ${n("reforzada")} reforzadas.
     ${Math.abs(dif) < 1 ? "La diferencia es menor que el error típico de Vina (1-2 kcal/mol): no la sobreinterpretéis." : ""}</p>`;
@@ -685,8 +696,8 @@ async function pantallaCuaderno(s) {
       <div>
         <div class="fila"><h3 style="margin:0">${esc(e.nombre)}</h3>
           <span class="chip">${esc(d?.diana ?? e.diana)}</span>
-          <span class="chip teal num">${fmt(e.kcal)} kcal/mol</span>
-          <span class="chip num">EL ${fmt(e.le, 3)}</span>
+          <span class="chip metric">${fmt(e.kcal)} kcal/mol</span>
+          <span class="chip metric">EL ${fmt(e.le, 3)}</span>
           <span class="sub">${new Date(e.fecha).toLocaleString("es-ES")}</span></div>
         <p class="mono" style="font-size:.78rem;word-break:break-all;margin:4px 0">${esc(e.smiles)}</p>
         <p><b>Hipótesis:</b> ${esc(e.hipotesis)}</p>

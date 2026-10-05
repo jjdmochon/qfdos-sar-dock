@@ -7,15 +7,18 @@
   <!-- GitHub Pages no permite cabeceras COOP/COEP: este service worker las añade (necesarias para Vina en WASM) -->
   <script src="coi-serviceworker.js"></script>
   <meta name="description" content="Panel de relaciones estructura-actividad y docking en el navegador · Química Farmacéutica II · Universidad de Granada">
-  <link rel="icon" href="img/icono.svg" type="image/svg+xml">
+  <link rel="icon" href="img/qfdos-isotipo-64.png" type="image/png">
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
   <header class="top">
     <div class="top-in">
       <div class="marca">
-        <h1>QFDOS SAR-Dock</h1>
-        <span class="badge">Química Farmacéutica II · UGR · 2026/27</span>
+        <img src="img/qfdos-isotipo-256.png" alt="Isotipo QFDOS">
+        <div>
+          <h1>QFDOS SAR-Dock</h1>
+          <span class="badge">Química Farmacéutica II · Grupo E · 2026/27</span>
+        </div>
         <span class="grupo" id="cab-grupo"></span>
       </div>
       <nav class="tabs" aria-label="Secciones">
@@ -31,9 +34,10 @@
   <main id="app" aria-live="polite"></main>
 
   <footer>
-    Docking con AutoDock Vina 1.2 compilado a WebAssembly (Webina, Durrant lab) y OpenBabel; visor 3Dmol.js;
+    <img src="img/qfdos-isotipo-64.png" alt="">
+    <span>Docking con AutoDock Vina 1.2 compilado a WebAssembly (Webina, Durrant lab) y OpenBabel; visor 3Dmol.js;
     quimioinformática con RDKit.js; editor JSME. Todo se calcula en tu ordenador: ni las estructuras ni el
-    cuaderno salen de él. Estructuras de RCSB PDB y datos de actividad de ChEMBL.
+    cuaderno salen de él. Estructuras de RCSB PDB y datos de actividad de ChEMBL.</span>
   </footer>
 
   <dialog id="dlg"><div class="dlg" id="dlg-in"></div></dialog>

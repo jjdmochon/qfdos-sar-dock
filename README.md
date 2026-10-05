@@ -23,6 +23,12 @@ Los scripts que generan `web/data/` viven en el repositorio del curso (`jjdmocho
 `scripts/preparar_dianas_dock.py` (receptor, caja, ficha y redocking de validación) y
 `scripts/series_sar_dock.py` (serie de fármacos del tema con pChEMBL y su mejor pose).
 
+## Identidad visual
+
+Sistema de diseño QFDOS (artefacto «Design System» de la asignatura): tokens de color, tipografía,
+radios, sombras y transición de afinidad en `web/css/app.css`; componentes HubCard (tarjetas de diana),
+TechnicalCallout (resultado de Vina) y la portada con `affinity-hero`. Isotipo oficial en `web/img/`.
+
 ## Publicación
 
 Cada push a `main` publica `web/` en GitHub Pages. Pages no permite cabeceras propias, y el docking
