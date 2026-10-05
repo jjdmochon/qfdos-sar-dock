@@ -1,0 +1,162 @@
+{
+ "clave": "cav",
+ "tema": 10,
+ "tema_nombre": "Transporte de membrana",
+ "diana": "Canal de calcio tipo L (Cav1.1)",
+ "gen": "CACNA1S",
+ "pdb": "6JP5",
+ "lig": "C5U",
+ "ligando": "nifedipino",
+ "metodo": "Crio-EM",
+ "nota": "Sitio de dihidropiridinas en la interfase de fenestración entre los dominios III y IV.",
+ "cadena_ligando": "A",
+ "smiles_cristal": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1ccccc1[N+](=O)[O-]",
+ "smiles_ph74": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1ccccc1[N+](=O)[O-]",
+ "caja": {
+  "center": [
+   164.28,
+   194.0,
+   175.608
+  ],
+  "size": [
+   20.0,
+   20.0,
+   20.0
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "A",
+   "num": 1011,
+   "res": "SER",
+   "d": 2.34,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 1057,
+   "res": "MET",
+   "d": 2.86,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 939,
+   "res": "GLN",
+   "d": 2.87,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 935,
+   "res": "THR",
+   "d": 3.15,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 1366,
+   "res": "MET",
+   "d": 3.17,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 1048,
+   "res": "TYR",
+   "d": 3.51,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 936,
+   "res": "THR",
+   "d": 3.54,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 1008,
+   "res": "PHE",
+   "d": 3.56,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 932,
+   "res": "VAL",
+   "d": 3.71,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 1369,
+   "res": "ALA",
+   "d": 3.76,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 1052,
+   "res": "ILE",
+   "d": 3.98,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 1365,
+   "res": "TYR",
+   "d": 4.05,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 1060,
+   "res": "PHE",
+   "d": 4.1,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 1012,
+   "res": "THR",
+   "d": 4.37,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 1007,
+   "res": "LEU",
+   "d": 4.41,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [],
+ "redocking": {
+  "vina_kcal_mol": [
+   -7.165,
+   -6.725,
+   -6.344,
+   -6.12,
+   -6.081,
+   -5.95,
+   -5.939,
+   -5.78,
+   -5.776
+  ],
+  "rmsd": [
+   1.33,
+   4.09,
+   4.09,
+   4.16,
+   2.93,
+   4.94,
+   4.66,
+   4.87,
+   4.4
+  ],
+  "exhaustividad": 8,
+  "valido": true
+ },
+ "organismo": "conejo"
+}

@@ -1,0 +1,169 @@
+[
+ {
+  "nombre": "paroxetina",
+  "nombre_en": "paroxetine",
+  "slug": "paroxetina",
+  "chembl_id": "CHEMBL490",
+  "smiles": "Fc1ccc([C@@H]2CCNC[C@H]2COc2ccc3c(c2)OCO3)cc1",
+  "smiles_ph74": "Fc1ccc([C@@H]2CC[NH2+]C[C@H]2COc2ccc3c(c2)OCO3)cc1",
+  "pesados": 24,
+  "mw": 329.4,
+  "vina_kcal_mol": -10.106,
+  "le": 0.421,
+  "referencia": true,
+  "pchembl": 9.42,
+  "n": 19,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL228"
+ },
+ {
+  "nombre": "fluoxetina",
+  "nombre_en": "fluoxetine",
+  "slug": "fluoxetina",
+  "chembl_id": "CHEMBL41",
+  "smiles": "CNCCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+  "smiles_ph74": "C[NH2+]CCC(Oc1ccc(C(F)(F)F)cc1)c1ccccc1",
+  "pesados": 22,
+  "mw": 309.3,
+  "vina_kcal_mol": -9.164,
+  "le": 0.417,
+  "referencia": false,
+  "pchembl": 8.03,
+  "n": 53,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL228"
+ },
+ {
+  "nombre": "sertralina",
+  "nombre_en": "sertraline",
+  "slug": "sertralina",
+  "chembl_id": "CHEMBL809",
+  "smiles": "CN[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccccc21",
+  "smiles_ph74": "C[NH2+][C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccccc21",
+  "pesados": 20,
+  "mw": 306.2,
+  "vina_kcal_mol": -8.951,
+  "le": 0.448,
+  "referencia": false,
+  "pchembl": 9.54,
+  "n": 7,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL228"
+ },
+ {
+  "nombre": "citalopram",
+  "nombre_en": "citalopram",
+  "slug": "citalopram",
+  "chembl_id": "CHEMBL549",
+  "smiles": "CN(C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+  "smiles_ph74": "C[NH+](C)CCCC1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+  "pesados": 24,
+  "mw": 324.4,
+  "vina_kcal_mol": -8.955,
+  "le": 0.373,
+  "referencia": false,
+  "pchembl": 8.17,
+  "n": 21,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL228"
+ },
+ {
+  "nombre": "escitalopram",
+  "nombre_en": "escitalopram",
+  "slug": "escitalopram",
+  "chembl_id": "CHEMBL1508",
+  "smiles": "CN(C)CCC[C@@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+  "smiles_ph74": "C[NH+](C)CCC[C@@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+  "pesados": 24,
+  "mw": 324.4,
+  "vina_kcal_mol": -9.55,
+  "le": 0.398,
+  "referencia": false,
+  "pchembl": 8.15,
+  "n": 13,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL228"
+ },
+ {
+  "nombre": "fluvoxamina",
+  "nombre_en": "fluvoxamine",
+  "slug": "fluvoxamina",
+  "chembl_id": "CHEMBL814",
+  "smiles": "COCCCC/C(=N\\OCCN)c1ccc(C(F)(F)F)cc1",
+  "smiles_ph74": "COCCCC/C(=N\\OCC[NH3+])c1ccc(C(F)(F)F)cc1",
+  "pesados": 22,
+  "mw": 318.3,
+  "vina_kcal_mol": -7.954,
+  "le": 0.362,
+  "referencia": false,
+  "pchembl": 8.41,
+  "n": 4,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL228"
+ },
+ {
+  "nombre": "imipramina",
+  "nombre_en": "imipramine",
+  "slug": "imipramina",
+  "chembl_id": "CHEMBL11",
+  "smiles": "CN(C)CCCN1c2ccccc2CCc2ccccc21",
+  "smiles_ph74": "C[NH+](C)CCCN1c2ccccc2CCc2ccccc21",
+  "pesados": 21,
+  "mw": 280.4,
+  "vina_kcal_mol": -6.753,
+  "le": 0.322,
+  "referencia": false,
+  "pchembl": 8.38,
+  "n": 32,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL228"
+ },
+ {
+  "nombre": "serotonina",
+  "nombre_en": "serotonin",
+  "slug": "serotonina",
+  "chembl_id": "CHEMBL39",
+  "smiles": "NCCc1c[nH]c2ccc(O)cc12",
+  "smiles_ph74": "[NH3+]CCc1c[nH]c2ccc(O)cc12",
+  "pesados": 13,
+  "mw": 176.2,
+  "vina_kcal_mol": -6.926,
+  "le": 0.533,
+  "referencia": false
+ }
+]

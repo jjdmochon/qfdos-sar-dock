@@ -1,0 +1,156 @@
+[
+ {
+  "nombre": "nifedipino",
+  "nombre_en": "nifedipine",
+  "slug": "nifedipino",
+  "chembl_id": "CHEMBL193",
+  "smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1ccccc1[N+](=O)[O-]",
+  "smiles_ph74": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1ccccc1[N+](=O)[O-]",
+  "pesados": 25,
+  "mw": 346.3,
+  "vina_kcal_mol": -7.165,
+  "le": 0.287,
+  "referencia": true,
+  "pchembl": 7.4,
+  "n": 7,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL1940"
+ },
+ {
+  "nombre": "amlodipino",
+  "nombre_en": "amlodipine",
+  "slug": "amlodipino",
+  "chembl_id": "CHEMBL1491",
+  "smiles": "CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl",
+  "smiles_ph74": "CCOC(=O)C1=C(COCC[NH3+])NC(C)=C(C(=O)OC)C1c1ccccc1Cl",
+  "pesados": 28,
+  "mw": 408.9,
+  "vina_kcal_mol": -6.381,
+  "le": 0.228,
+  "referencia": false,
+  "pchembl": 5.39,
+  "n": 3,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL1940"
+ },
+ {
+  "nombre": "nitrendipino",
+  "nombre_en": "nitrendipine",
+  "slug": "nitrendipino",
+  "chembl_id": "CHEMBL475534",
+  "smiles": "CCOC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1cccc([N+](=O)[O-])c1",
+  "smiles_ph74": "CCOC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1cccc([N+](=O)[O-])c1",
+  "pesados": 26,
+  "mw": 360.4,
+  "vina_kcal_mol": -7.044,
+  "le": 0.271,
+  "referencia": false,
+  "pchembl": 9.59,
+  "n": 3,
+  "tipos": [
+   "AC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL1940"
+ },
+ {
+  "nombre": "nicardipino",
+  "nombre_en": "nicardipine",
+  "slug": "nicardipino",
+  "chembl_id": "CHEMBL1484",
+  "smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN(C)Cc2ccccc2)C1c1cccc([N+](=O)[O-])c1",
+  "smiles_ph74": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCC[NH+](C)Cc2ccccc2)C1c1cccc([N+](=O)[O-])c1",
+  "pesados": 35,
+  "mw": 479.5,
+  "vina_kcal_mol": -8.348,
+  "le": 0.239,
+  "referencia": false,
+  "pchembl": 5.02,
+  "n": 3,
+  "tipos": [
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL1940"
+ },
+ {
+  "nombre": "felodipino",
+  "nombre_en": "felodipine",
+  "slug": "felodipino",
+  "chembl_id": "CHEMBL1480",
+  "smiles": "CCOC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1cccc(Cl)c1Cl",
+  "smiles_ph74": "CCOC(=O)C1=C(C)NC(C)=C(C(=O)OC)C1c1cccc(Cl)c1Cl",
+  "pesados": 25,
+  "mw": 384.3,
+  "vina_kcal_mol": -6.913,
+  "le": 0.277,
+  "referencia": false
+ },
+ {
+  "nombre": "isradipino",
+  "nombre_en": "isradipine",
+  "slug": "isradipino",
+  "chembl_id": "CHEMBL1648",
+  "smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC(C)C)C1c1cccc2nonc12",
+  "smiles_ph74": "COC(=O)C1=C(C)NC(C)=C(C(=O)OC(C)C)C1c1cccc2nonc12",
+  "pesados": 27,
+  "mw": 371.4,
+  "vina_kcal_mol": -7.906,
+  "le": 0.293,
+  "referencia": false,
+  "pchembl": 7.84,
+  "n": 2,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL1940"
+ },
+ {
+  "nombre": "verapamilo",
+  "nombre_en": "verapamil",
+  "slug": "verapamilo",
+  "chembl_id": "CHEMBL6966",
+  "smiles": "COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC",
+  "smiles_ph74": "COc1ccc(CC[NH+](C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC",
+  "pesados": 33,
+  "mw": 454.6,
+  "vina_kcal_mol": -7.332,
+  "le": 0.222,
+  "referencia": false,
+  "pchembl": 4.62,
+  "n": 6,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL1940"
+ },
+ {
+  "nombre": "diltiazem",
+  "nombre_en": "diltiazem",
+  "slug": "diltiazem",
+  "chembl_id": "CHEMBL23",
+  "smiles": "COc1ccc([C@@H]2Sc3ccccc3N(CCN(C)C)C(=O)[C@@H]2OC(C)=O)cc1",
+  "smiles_ph74": "COc1ccc([C@@H]2Sc3ccccc3N(CC[NH+](C)C)C(=O)[C@@H]2OC(C)=O)cc1",
+  "pesados": 29,
+  "mw": 414.5,
+  "vina_kcal_mol": -6.151,
+  "le": 0.212,
+  "referencia": false,
+  "pchembl": 6.42,
+  "n": 1,
+  "tipos": [
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL3805"
+ }
+]

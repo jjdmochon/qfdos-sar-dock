@@ -1,0 +1,190 @@
+{
+ "clave": "ache",
+ "tema": 1,
+ "tema_nombre": "Colinérgicos",
+ "diana": "Acetilcolinesterasa humana",
+ "gen": "ACHE",
+ "pdb": "4EY7",
+ "lig": "E20",
+ "ligando": "donepezilo",
+ "metodo": "Rayos X",
+ "nota": "Garganta aromática: Trp86 (sitio aniónico catalítico) y Trp286 (sitio periférico).",
+ "cadena_ligando": "A",
+ "smiles_cristal": "COc1cc2c(cc1OC)C(=O)[C@H](CC1CCN(Cc3ccccc3)CC1)C2",
+ "smiles_ph74": "COc1cc2c(cc1OC)C(=O)[C@H](CC1CC[NH+](Cc3ccccc3)CC1)C2",
+ "caja": {
+  "center": [
+   -13.988,
+   -43.906,
+   27.108
+  ],
+  "size": [
+   23.3,
+   20.0,
+   20.4
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "A",
+   "num": 295,
+   "res": "PHE",
+   "d": 2.94,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 293,
+   "res": "SER",
+   "d": 3.07,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 72,
+   "res": "TYR",
+   "d": 3.2,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 337,
+   "res": "TYR",
+   "d": 3.25,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 124,
+   "res": "TYR",
+   "d": 3.29,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 86,
+   "res": "TRP",
+   "d": 3.41,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 202,
+   "res": "GLU",
+   "d": 3.41,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 341,
+   "res": "TYR",
+   "d": 3.49,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 338,
+   "res": "PHE",
+   "d": 3.54,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 286,
+   "res": "TRP",
+   "d": 3.55,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 447,
+   "res": "HIS",
+   "d": 3.66,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 448,
+   "res": "GLY",
+   "d": 3.72,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 203,
+   "res": "SER",
+   "d": 3.89,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 294,
+   "res": "VAL",
+   "d": 3.91,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 121,
+   "res": "GLY",
+   "d": 3.93,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 297,
+   "res": "PHE",
+   "d": 4.14,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 74,
+   "res": "ASP",
+   "d": 4.31,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 120,
+   "res": "GLY",
+   "d": 4.34,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 296,
+   "res": "ARG",
+   "d": 4.49,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [],
+ "redocking": {
+  "vina_kcal_mol": [
+   -11.79,
+   -11.088,
+   -10.992,
+   -10.845,
+   -10.844,
+   -10.738,
+   -10.059,
+   -9.827,
+   -9.541
+  ],
+  "rmsd": [
+   0.79,
+   9.43,
+   2.76,
+   2.74,
+   3.67,
+   4.16,
+   9.84,
+   4.5,
+   9.38
+  ],
+  "exhaustividad": 8,
+  "valido": true
+ },
+ "organismo": "humano"
+}

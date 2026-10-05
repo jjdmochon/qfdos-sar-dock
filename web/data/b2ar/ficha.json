@@ -1,0 +1,197 @@
+{
+ "clave": "b2ar",
+ "tema": 2,
+ "tema_nombre": "Adrenérgicos",
+ "diana": "Receptor β2-adrenérgico",
+ "gen": "ADRB2",
+ "pdb": "2RH1",
+ "lig": "CAU",
+ "ligando": "carazolol",
+ "metodo": "Rayos X",
+ "nota": "Asp113 (TM3) ancla la amina protonada; Ser203/Ser207 (TM5) y Asn312 (TM7).",
+ "cadena_ligando": "A",
+ "smiles_cristal": "CC(C)NC[C@H](O)COc1cccc2[nH]c3ccccc3c12",
+ "smiles_ph74": "CC(C)[NH2+]C[C@H](O)COc1cccc2[nH]c3ccccc3c12",
+ "caja": {
+  "center": [
+   -30.386,
+   9.489,
+   6.751
+  ],
+  "size": [
+   20.0,
+   20.0,
+   20.0
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "A",
+   "num": 113,
+   "res": "ASP",
+   "d": 2.61,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 312,
+   "res": "ASN",
+   "d": 2.77,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 316,
+   "res": "TYR",
+   "d": 3.27,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 203,
+   "res": "SER",
+   "d": 3.32,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 286,
+   "res": "TRP",
+   "d": 3.42,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 193,
+   "res": "PHE",
+   "d": 3.5,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 290,
+   "res": "PHE",
+   "d": 3.52,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 308,
+   "res": "TYR",
+   "d": 3.55,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 293,
+   "res": "ASN",
+   "d": 3.63,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 289,
+   "res": "PHE",
+   "d": 3.69,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 207,
+   "res": "SER",
+   "d": 3.69,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 109,
+   "res": "TRP",
+   "d": 3.72,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 114,
+   "res": "VAL",
+   "d": 3.81,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 199,
+   "res": "TYR",
+   "d": 3.86,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 204,
+   "res": "SER",
+   "d": 3.86,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 118,
+   "res": "THR",
+   "d": 3.9,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 117,
+   "res": "VAL",
+   "d": 3.98,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 200,
+   "res": "ALA",
+   "d": 4.27,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 195,
+   "res": "THR",
+   "d": 4.32,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 110,
+   "res": "THR",
+   "d": 4.43,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [],
+ "redocking": {
+  "vina_kcal_mol": [
+   -10.047,
+   -9.408,
+   -8.699,
+   -8.091,
+   -7.76,
+   -7.676,
+   -7.653,
+   -7.547,
+   -7.052
+  ],
+  "rmsd": [
+   0.98,
+   1.59,
+   3.68,
+   9.46,
+   9.29,
+   8.17,
+   10.07,
+   4.54,
+   7.93
+  ],
+  "exhaustividad": 8,
+  "valido": true
+ },
+ "organismo": "humano"
+}

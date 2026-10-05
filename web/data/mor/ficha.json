@@ -1,0 +1,142 @@
+{
+ "clave": "mor",
+ "tema": 6,
+ "tema_nombre": "Opioides",
+ "diana": "Receptor μ-opioide",
+ "gen": "OPRM1",
+ "pdb": "8EF6",
+ "lig": "MOI",
+ "ligando": "morfina",
+ "exh": 32,
+ "metodo": "Crio-EM",
+ "nota": "Asp147 (TM3) con la amina protonada; His297 con el fenol.",
+ "cadena_ligando": "R",
+ "smiles_cristal": "CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5",
+ "smiles_ph74": "C[NH+]1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5",
+ "caja": {
+  "center": [
+   138.74,
+   125.343,
+   134.161
+  ],
+  "size": [
+   20.0,
+   20.0,
+   20.0
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "R",
+   "num": 150,
+   "res": "TYR",
+   "d": 2.83,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "R",
+   "num": 149,
+   "res": "ASP",
+   "d": 3.54,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 320,
+   "res": "TRP",
+   "d": 3.54,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 153,
+   "res": "MET",
+   "d": 3.68,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 298,
+   "res": "ILE",
+   "d": 3.87,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 238,
+   "res": "VAL",
+   "d": 3.87,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 302,
+   "res": "VAL",
+   "d": 4.01,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 324,
+   "res": "ILE",
+   "d": 4.07,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 299,
+   "res": "HIS",
+   "d": 4.15,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 328,
+   "res": "TYR",
+   "d": 4.24,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 295,
+   "res": "TRP",
+   "d": 4.36,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "R",
+   "num": 235,
+   "res": "LYS",
+   "d": 4.46,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [],
+ "redocking": {
+  "vina_kcal_mol": [
+   -7.747,
+   -7.717,
+   -7.401,
+   -7.366,
+   -7.313,
+   -7.313,
+   -7.283,
+   -7.254,
+   -7.157
+  ],
+  "rmsd": [
+   5.04,
+   4.73,
+   1.91,
+   2.56,
+   4.67,
+   8.16,
+   5.05,
+   8.56,
+   2.42
+  ],
+  "exhaustividad": 32,
+  "valido": false
+ },
+ "organismo": "humano"
+}

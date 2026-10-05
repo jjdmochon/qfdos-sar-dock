@@ -1,0 +1,166 @@
+[
+ {
+  "nombre": "donepezilo",
+  "nombre_en": "donepezil",
+  "slug": "donepezilo",
+  "chembl_id": "CHEMBL502",
+  "smiles": "COc1cc2c(cc1OC)C(=O)C(CC1CCN(Cc3ccccc3)CC1)C2",
+  "smiles_ph74": "COc1cc2c(cc1OC)C(=O)C(CC1CC[NH+](Cc3ccccc3)CC1)C2",
+  "pesados": 28,
+  "mw": 379.5,
+  "vina_kcal_mol": -12.161,
+  "le": 0.434,
+  "referencia": true,
+  "pchembl": 7.75,
+  "n": 175,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL220"
+ },
+ {
+  "nombre": "tacrina",
+  "nombre_en": "tacrine",
+  "slug": "tacrina",
+  "chembl_id": "CHEMBL95",
+  "smiles": "Nc1c2c(nc3ccccc13)CCCC2",
+  "smiles_ph74": "Nc1c2c(nc3ccccc13)CCCC2",
+  "pesados": 15,
+  "mw": 198.3,
+  "vina_kcal_mol": -8.629,
+  "le": 0.575,
+  "referencia": false,
+  "pchembl": 6.7,
+  "n": 200,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL220"
+ },
+ {
+  "nombre": "galantamina",
+  "nombre_en": "galantamine",
+  "slug": "galantamina",
+  "chembl_id": "CHEMBL659",
+  "smiles": "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2",
+  "smiles_ph74": "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CC[NH+](C)C2",
+  "pesados": 21,
+  "mw": 287.4,
+  "vina_kcal_mol": -7.225,
+  "le": 0.344,
+  "referencia": false,
+  "pchembl": 5.94,
+  "n": 94,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL220"
+ },
+ {
+  "nombre": "rivastigmina",
+  "nombre_en": "rivastigmine",
+  "slug": "rivastigmina",
+  "chembl_id": "CHEMBL636",
+  "smiles": "CCN(C)C(=O)Oc1cccc([C@H](C)N(C)C)c1",
+  "smiles_ph74": "CCN(C)C(=O)Oc1cccc([C@H](C)[NH+](C)C)c1",
+  "pesados": 18,
+  "mw": 250.3,
+  "vina_kcal_mol": -7.814,
+  "le": 0.434,
+  "referencia": false,
+  "pchembl": 5.52,
+  "n": 58,
+  "tipos": [
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL220"
+ },
+ {
+  "nombre": "fisostigmina",
+  "nombre_en": "physostigmine",
+  "slug": "fisostigmina",
+  "chembl_id": "CHEMBL94",
+  "smiles": "CNC(=O)Oc1ccc2c(c1)[C@]1(C)CCN(C)[C@@H]1N2C",
+  "smiles_ph74": "CNC(=O)Oc1ccc2c(c1)[C@]1(C)CC[NH+](C)[C@@H]1N2C",
+  "pesados": 20,
+  "mw": 275.4,
+  "vina_kcal_mol": -8.896,
+  "le": 0.445,
+  "referencia": false,
+  "pchembl": 7.37,
+  "n": 55,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL220"
+ },
+ {
+  "nombre": "neostigmina",
+  "nombre_en": "neostigmine",
+  "slug": "neostigmina",
+  "chembl_id": "CHEMBL278020",
+  "smiles": "CN(C)C(=O)Oc1cccc([N+](C)(C)C)c1",
+  "smiles_ph74": "CN(C)C(=O)Oc1cccc([N+](C)(C)C)c1",
+  "pesados": 16,
+  "mw": 223.3,
+  "vina_kcal_mol": -7.338,
+  "le": 0.459,
+  "referencia": false,
+  "pchembl": 6.32,
+  "n": 4,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL220"
+ },
+ {
+  "nombre": "piridostigmina",
+  "nombre_en": "pyridostigmine",
+  "slug": "piridostigmina",
+  "chembl_id": "CHEMBL1115",
+  "smiles": "CN(C)C(=O)Oc1ccc[n+](C)c1",
+  "smiles_ph74": "CN(C)C(=O)Oc1ccc[n+](C)c1",
+  "pesados": 13,
+  "mw": 181.2,
+  "vina_kcal_mol": -6.425,
+  "le": 0.494,
+  "referencia": false,
+  "pchembl": 6.17,
+  "n": 2,
+  "tipos": [
+   "AC50"
+  ],
+  "diana_chembl": "CHEMBL220"
+ },
+ {
+  "nombre": "edrofonio",
+  "nombre_en": "edrophonium",
+  "slug": "edrofonio",
+  "chembl_id": "CHEMBL1104",
+  "smiles": "CC[N+](C)(C)c1cccc(O)c1",
+  "smiles_ph74": "CC[N+](C)(C)c1cccc(O)c1",
+  "pesados": 12,
+  "mw": 166.2,
+  "vina_kcal_mol": -6.568,
+  "le": 0.547,
+  "referencia": false,
+  "pchembl": 5.52,
+  "n": 1,
+  "tipos": [
+   "AC50"
+  ],
+  "diana_chembl": "CHEMBL220"
+ }
+]

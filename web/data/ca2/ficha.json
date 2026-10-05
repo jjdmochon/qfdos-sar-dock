@@ -1,0 +1,155 @@
+{
+ "clave": "ca2",
+ "tema": 8,
+ "tema_nombre": "Inhibidores enzimáticos I",
+ "diana": "Anhidrasa carbónica II",
+ "gen": "CA2",
+ "pdb": "3HS4",
+ "lig": "AZM",
+ "ligando": "acetazolamida",
+ "metodo": "Rayos X",
+ "nota": "La sulfonamida desprotonada coordina el Zn²⁺ (His94, His96, His119) y dona un puente de H a Thr199.",
+ "cadena_ligando": "A",
+ "smiles_cristal": "CC(=O)Nc1nnc(S(N)(=O)=O)s1",
+ "smiles_ph74": "CC(=O)Nc1nnc(S(N)(=O)=O)s1",
+ "caja": {
+  "center": [
+   -5.421,
+   3.105,
+   15.101
+  ],
+  "size": [
+   20.0,
+   20.0,
+   20.0
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "Z",
+   "num": 900,
+   "res": "ZN",
+   "d": 1.94,
+   "tipo": "coordinación metálica"
+  },
+  {
+   "cadena": "A",
+   "num": 199,
+   "res": "THR",
+   "d": 2.83,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 200,
+   "res": "THR",
+   "d": 2.89,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 92,
+   "res": "GLN",
+   "d": 3.1,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 94,
+   "res": "HIS",
+   "d": 3.23,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 96,
+   "res": "HIS",
+   "d": 3.27,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 198,
+   "res": "LEU",
+   "d": 3.3,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 119,
+   "res": "HIS",
+   "d": 3.31,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 131,
+   "res": "PHE",
+   "d": 3.41,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 121,
+   "res": "VAL",
+   "d": 3.5,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 209,
+   "res": "TRP",
+   "d": 3.66,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 143,
+   "res": "VAL",
+   "d": 3.98,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 106,
+   "res": "GLU",
+   "d": 4.08,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 197,
+   "res": "SER",
+   "d": 4.09,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [],
+ "redocking": {
+  "vina_kcal_mol": [
+   -6.663,
+   -6.187,
+   -6.118,
+   -5.957,
+   -5.598,
+   -5.459,
+   -5.449,
+   -5.243,
+   -5.216
+  ],
+  "rmsd": [
+   5.32,
+   2.29,
+   5.71,
+   3.69,
+   3.27,
+   5.87,
+   4.78,
+   5.92,
+   6.28
+  ],
+  "exhaustividad": 8,
+  "valido": false
+ },
+ "organismo": "humano"
+}

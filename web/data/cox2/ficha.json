@@ -1,0 +1,206 @@
+{
+ "clave": "cox2",
+ "tema": 9,
+ "tema_nombre": "Inhibidores enzimáticos II",
+ "diana": "Ciclooxigenasa-2 (COX-2)",
+ "gen": "PTGS2",
+ "pdb": "3LN1",
+ "lig": "CEL",
+ "ligando": "celecoxib",
+ "metodo": "Rayos X",
+ "nota": "La sulfonamida entra en el bolsillo lateral de COX-2 (Val523, His90, Arg513), ausente en COX-1 (Ile523).",
+ "cadena_ligando": "A",
+ "smiles_cristal": "Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1",
+ "smiles_ph74": "Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1",
+ "caja": {
+  "center": [
+   30.597,
+   -22.559,
+   -15.758
+  ],
+  "size": [
+   20.4,
+   20.0,
+   20.0
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "A",
+   "num": 338,
+   "res": "LEU",
+   "d": 2.71,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 339,
+   "res": "SER",
+   "d": 2.96,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 75,
+   "res": "HIS",
+   "d": 2.97,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 517,
+   "res": "LEU",
+   "d": 3.06,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 178,
+   "res": "GLN",
+   "d": 3.08,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 345,
+   "res": "LEU",
+   "d": 3.22,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 499,
+   "res": "ARG",
+   "d": 3.34,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 373,
+   "res": "TRP",
+   "d": 3.35,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 504,
+   "res": "PHE",
+   "d": 3.42,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 335,
+   "res": "VAL",
+   "d": 3.45,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 341,
+   "res": "TYR",
+   "d": 3.48,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 509,
+   "res": "VAL",
+   "d": 3.5,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 371,
+   "res": "TYR",
+   "d": 3.57,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 513,
+   "res": "ALA",
+   "d": 3.6,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 106,
+   "res": "ARG",
+   "d": 3.61,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 512,
+   "res": "GLY",
+   "d": 3.65,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 516,
+   "res": "SER",
+   "d": 3.75,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 502,
+   "res": "ALA",
+   "d": 3.85,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 503,
+   "res": "ILE",
+   "d": 3.92,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 508,
+   "res": "MET",
+   "d": 4.05,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 340,
+   "res": "GLY",
+   "d": 4.18,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 367,
+   "res": "PHE",
+   "d": 4.31,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [
+  "A:415",
+  "A:548",
+  "A:216",
+  "A:370"
+ ],
+ "redocking": {
+  "vina_kcal_mol": [
+   -12.07,
+   -10.513,
+   -10.173,
+   -10.139
+  ],
+  "rmsd": [
+   0.48,
+   6.16,
+   6.98,
+   1.14
+  ],
+  "exhaustividad": 8,
+  "valido": true
+ },
+ "organismo": "ratón"
+}

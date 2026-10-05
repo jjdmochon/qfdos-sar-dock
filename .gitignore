@@ -1,0 +1,11 @@
+# Entorno de preparación (se recrea con uv) y fuentes descargadas de terceros
+prep/.venv/
+prep/bin/
+prep/*.log
+vendor-src/
+web/test.html
+__pycache__/
+*.pyc
+.vercel
+desktop.ini
+prep/*.json

@@ -1,0 +1,211 @@
+{
+ "clave": "d2r",
+ "tema": 3,
+ "tema_nombre": "Dopamina",
+ "diana": "Receptor D2 de dopamina",
+ "gen": "DRD2",
+ "pdb": "6CM4",
+ "lig": "8NU",
+ "ligando": "risperidona",
+ "metodo": "Rayos X",
+ "nota": "Asp114 (TM3) con la amina protonada; bolsillo profundo hacia Trp386.",
+ "cadena_ligando": "A",
+ "smiles_cristal": "Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2",
+ "smiles_ph74": "Cc1nc2n(c(=O)c1CC[NH+]1CCC(c3noc4cc(F)ccc34)CC1)CCCC2",
+ "caja": {
+  "center": [
+   9.177,
+   5.47,
+   -8.665
+  ],
+  "size": [
+   20.0,
+   20.0,
+   24.8
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "A",
+   "num": 114,
+   "res": "ASP",
+   "d": 2.69,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 389,
+   "res": "PHE",
+   "d": 3.3,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 122,
+   "res": "ALA",
+   "d": 3.31,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 197,
+   "res": "SER",
+   "d": 3.32,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 118,
+   "res": "CYS",
+   "d": 3.33,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 386,
+   "res": "TRP",
+   "d": 3.36,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 416,
+   "res": "TYR",
+   "d": 3.41,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 382,
+   "res": "PHE",
+   "d": 3.44,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 100,
+   "res": "TRP",
+   "d": 3.5,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 390,
+   "res": "PHE",
+   "d": 3.56,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 412,
+   "res": "THR",
+   "d": 3.67,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 198,
+   "res": "PHE",
+   "d": 3.72,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 119,
+   "res": "THR",
+   "d": 3.73,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 110,
+   "res": "PHE",
+   "d": 3.74,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 408,
+   "res": "TYR",
+   "d": 3.75,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 115,
+   "res": "VAL",
+   "d": 3.8,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 193,
+   "res": "SER",
+   "d": 4.0,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 409,
+   "res": "SER",
+   "d": 4.02,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 94,
+   "res": "LEU",
+   "d": 4.08,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 91,
+   "res": "VAL",
+   "d": 4.44,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 189,
+   "res": "PHE",
+   "d": 4.46,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 184,
+   "res": "ILE",
+   "d": 4.48,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [],
+ "redocking": {
+  "vina_kcal_mol": [
+   -12.373,
+   -12.242,
+   -11.743,
+   -11.501,
+   -11.466,
+   -11.306,
+   -11.263,
+   -11.21,
+   -10.915
+  ],
+  "rmsd": [
+   2.48,
+   1.98,
+   2.62,
+   0.96,
+   3.71,
+   11.24,
+   10.41,
+   10.53,
+   10.58
+  ],
+  "exhaustividad": 8,
+  "valido": false
+ },
+ "organismo": "humano"
+}

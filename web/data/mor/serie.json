@@ -1,0 +1,165 @@
+[
+ {
+  "nombre": "morfina",
+  "nombre_en": "morphine",
+  "slug": "morfina",
+  "chembl_id": "CHEMBL70",
+  "smiles": "CN1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5",
+  "smiles_ph74": "C[NH+]1CC[C@]23c4c5ccc(O)c4O[C@H]2[C@@H](O)C=C[C@H]3[C@H]1C5",
+  "pesados": 21,
+  "mw": 285.3,
+  "vina_kcal_mol": -7.77,
+  "le": 0.37,
+  "referencia": true,
+  "pchembl": 8.21,
+  "n": 80,
+  "tipos": [
+   "EC50",
+   "ED50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL233"
+ },
+ {
+  "nombre": "codeína",
+  "nombre_en": "codeine",
+  "slug": "codeina",
+  "chembl_id": "CHEMBL485",
+  "smiles": "COc1ccc2c3c1O[C@H]1[C@@H](O)C=C[C@H]4[C@@H](C2)N(C)CC[C@@]341",
+  "smiles_ph74": "COc1ccc2c3c1O[C@H]1[C@@H](O)C=C[C@H]4[C@@H](C2)[NH+](C)CC[C@@]341",
+  "pesados": 22,
+  "mw": 299.4,
+  "vina_kcal_mol": -7.746,
+  "le": 0.352,
+  "referencia": false,
+  "pchembl": 6.05,
+  "n": 6,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL233"
+ },
+ {
+  "nombre": "heroína",
+  "nombre_en": "diamorphine",
+  "slug": "heroina",
+  "chembl_id": "CHEMBL459324",
+  "smiles": "CC(=O)Oc1ccc2c3c1O[C@H]1[C@@H](OC(C)=O)C=C[C@H]4[C@@H](C2)N(C)CC[C@@]341",
+  "smiles_ph74": "CC(=O)Oc1ccc2c3c1O[C@H]1[C@@H](OC(C)=O)C=C[C@H]4[C@@H](C2)[NH+](C)CC[C@@]341",
+  "pesados": 27,
+  "mw": 369.4,
+  "vina_kcal_mol": -8.452,
+  "le": 0.313,
+  "referencia": false
+ },
+ {
+  "nombre": "oxicodona",
+  "nombre_en": "oxycodone",
+  "slug": "oxicodona",
+  "chembl_id": "CHEMBL656",
+  "smiles": "COc1ccc2c3c1O[C@H]1C(=O)CC[C@@]4(O)[C@@H](C2)N(C)CC[C@]314",
+  "smiles_ph74": "COc1ccc2c3c1O[C@H]1C(=O)CC[C@@]4(O)[C@@H](C2)[NH+](C)CC[C@]314",
+  "pesados": 23,
+  "mw": 315.4,
+  "vina_kcal_mol": -8.358,
+  "le": 0.363,
+  "referencia": false,
+  "pchembl": 7.77,
+  "n": 11,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL233"
+ },
+ {
+  "nombre": "naloxona",
+  "nombre_en": "naloxone",
+  "slug": "naloxona",
+  "chembl_id": "CHEMBL80",
+  "smiles": "C=CCN1CC[C@]23c4c5ccc(O)c4O[C@H]2C(=O)CC[C@@]3(O)[C@H]1C5",
+  "smiles_ph74": "C=CC[NH+]1CC[C@]23c4c5ccc(O)c4O[C@H]2C(=O)CC[C@@]3(O)[C@H]1C5",
+  "pesados": 24,
+  "mw": 327.4,
+  "vina_kcal_mol": -8.446,
+  "le": 0.352,
+  "referencia": false,
+  "pchembl": 8.4,
+  "n": 46,
+  "tipos": [
+   "EC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL233"
+ },
+ {
+  "nombre": "fentanilo",
+  "nombre_en": "fentanyl",
+  "slug": "fentanilo",
+  "chembl_id": "CHEMBL596",
+  "smiles": "CCC(=O)N(c1ccccc1)C1CCN(CCc2ccccc2)CC1",
+  "smiles_ph74": "CCC(=O)N(c1ccccc1)C1CC[NH+](CCc2ccccc2)CC1",
+  "pesados": 25,
+  "mw": 336.5,
+  "vina_kcal_mol": -8.806,
+  "le": 0.352,
+  "referencia": false,
+  "pchembl": 8.48,
+  "n": 29,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL233"
+ },
+ {
+  "nombre": "metadona",
+  "nombre_en": "methadone",
+  "slug": "metadona",
+  "chembl_id": "CHEMBL651",
+  "smiles": "CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1",
+  "smiles_ph74": "CCC(=O)C(CC(C)[NH+](C)C)(c1ccccc1)c1ccccc1",
+  "pesados": 23,
+  "mw": 309.5,
+  "vina_kcal_mol": -7.696,
+  "le": 0.335,
+  "referencia": false,
+  "pchembl": 8.14,
+  "n": 2,
+  "tipos": [
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL233"
+ },
+ {
+  "nombre": "petidina",
+  "nombre_en": "meperidine",
+  "slug": "petidina",
+  "chembl_id": "CHEMBL607",
+  "smiles": "CCOC(=O)C1(c2ccccc2)CCN(C)CC1",
+  "smiles_ph74": "CCOC(=O)C1(c2ccccc2)CC[NH+](C)CC1",
+  "pesados": 18,
+  "mw": 247.3,
+  "vina_kcal_mol": -6.716,
+  "le": 0.373,
+  "referencia": false,
+  "pchembl": 5.53,
+  "n": 4,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL233"
+ }
+]

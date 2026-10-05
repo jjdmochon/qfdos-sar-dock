@@ -1,0 +1,146 @@
+{
+ "clave": "gabaa",
+ "tema": 5,
+ "tema_nombre": "GABA",
+ "diana": "Receptor GABA-A α1β2γ2 (sitio BZD)",
+ "gen": "GABRA1",
+ "pdb": "6X3X",
+ "lig": "DZP",
+ "ligando": "diazepam",
+ "metodo": "Crio-EM",
+ "nota": "Interfase α1(+)/γ2(−): His102 de α1 y Phe77 de γ2.",
+ "cadena_ligando": "A",
+ "smiles_cristal": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+ "smiles_ph74": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+ "caja": {
+  "center": [
+   145.574,
+   123.299,
+   122.487
+  ],
+  "size": [
+   20.0,
+   20.0,
+   20.0
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "A",
+   "num": 261,
+   "res": "MET",
+   "d": 3.07,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "B",
+   "num": 228,
+   "res": "ILE",
+   "d": 3.25,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "B",
+   "num": 232,
+   "res": "LEU",
+   "d": 3.26,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 289,
+   "res": "PHE",
+   "d": 3.43,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 285,
+   "res": "LEU",
+   "d": 3.44,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 286,
+   "res": "MET",
+   "d": 3.52,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "B",
+   "num": 233,
+   "res": "PRO",
+   "d": 3.54,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "B",
+   "num": 236,
+   "res": "MET",
+   "d": 3.54,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 262,
+   "res": "THR",
+   "d": 3.63,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 265,
+   "res": "ASN",
+   "d": 3.69,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "B",
+   "num": 265,
+   "res": "THR",
+   "d": 3.7,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "B",
+   "num": 237,
+   "res": "THR",
+   "d": 3.8,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "B",
+   "num": 269,
+   "res": "LEU",
+   "d": 3.96,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [],
+ "redocking": {
+  "vina_kcal_mol": [
+   -8.024,
+   -7.135,
+   -6.721,
+   -6.272,
+   -6.226,
+   -6.084,
+   -5.356,
+   -5.107
+  ],
+  "rmsd": [
+   0.74,
+   5.36,
+   5.71,
+   5.97,
+   5.22,
+   3.72,
+   5.73,
+   4.88
+  ],
+  "exhaustividad": 8,
+  "valido": true
+ },
+ "organismo": "humano"
+}

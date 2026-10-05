@@ -1,0 +1,185 @@
+[
+ {
+  "nombre": "celecoxib",
+  "nombre_en": "celecoxib",
+  "slug": "celecoxib",
+  "chembl_id": "CHEMBL118",
+  "smiles": "Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1",
+  "smiles_ph74": "Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1",
+  "pesados": 26,
+  "mw": 381.4,
+  "vina_kcal_mol": -12.07,
+  "le": 0.464,
+  "referencia": true,
+  "pchembl": 7.1,
+  "n": 200,
+  "tipos": [
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL230"
+ },
+ {
+  "nombre": "rofecoxib",
+  "nombre_en": "rofecoxib",
+  "slug": "rofecoxib",
+  "chembl_id": "CHEMBL122",
+  "smiles": "CS(=O)(=O)c1ccc(C2=C(c3ccccc3)C(=O)OC2)cc1",
+  "smiles_ph74": "CS(=O)(=O)c1ccc(C2=C(c3ccccc3)C(=O)OC2)cc1",
+  "pesados": 22,
+  "mw": 314.4,
+  "vina_kcal_mol": -10.777,
+  "le": 0.49,
+  "referencia": false,
+  "pchembl": 6.48,
+  "n": 63,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL230"
+ },
+ {
+  "nombre": "etoricoxib",
+  "nombre_en": "etoricoxib",
+  "slug": "etoricoxib",
+  "chembl_id": "CHEMBL416146",
+  "smiles": "Cc1ccc(-c2ncc(Cl)cc2-c2ccc(S(C)(=O)=O)cc2)cn1",
+  "smiles_ph74": "Cc1ccc(-c2ncc(Cl)cc2-c2ccc(S(C)(=O)=O)cc2)cn1",
+  "pesados": 24,
+  "mw": 358.9,
+  "vina_kcal_mol": -10.841,
+  "le": 0.452,
+  "referencia": false,
+  "pchembl": 6.23,
+  "n": 18,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL230"
+ },
+ {
+  "nombre": "valdecoxib",
+  "nombre_en": "valdecoxib",
+  "slug": "valdecoxib",
+  "chembl_id": "CHEMBL865",
+  "smiles": "Cc1onc(-c2ccccc2)c1-c1ccc(S(N)(=O)=O)cc1",
+  "smiles_ph74": "Cc1onc(-c2ccccc2)c1-c1ccc(S(N)(=O)=O)cc1",
+  "pesados": 22,
+  "mw": 314.4,
+  "vina_kcal_mol": -10.683,
+  "le": 0.486,
+  "referencia": false,
+  "pchembl": 7.4,
+  "n": 15,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL230"
+ },
+ {
+  "nombre": "ibuprofeno",
+  "nombre_en": "ibuprofen",
+  "slug": "ibuprofeno",
+  "chembl_id": "CHEMBL521",
+  "smiles": "CC(C)Cc1ccc(C(C)C(=O)O)cc1",
+  "smiles_ph74": "CC(C)Cc1ccc(C(C)C(=O)[O-])cc1",
+  "pesados": 15,
+  "mw": 206.3,
+  "vina_kcal_mol": -7.416,
+  "le": 0.494,
+  "referencia": false,
+  "pchembl": 5.48,
+  "n": 35,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL230"
+ },
+ {
+  "nombre": "diclofenaco",
+  "nombre_en": "diclofenac",
+  "slug": "diclofenaco",
+  "chembl_id": "CHEMBL139",
+  "smiles": "O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl",
+  "smiles_ph74": "O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl",
+  "pesados": 19,
+  "mw": 296.2,
+  "vina_kcal_mol": -8.358,
+  "le": 0.44,
+  "referencia": false,
+  "pchembl": 6.97,
+  "n": 30,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL230"
+ },
+ {
+  "nombre": "indometacina",
+  "nombre_en": "indomethacin",
+  "slug": "indometacina",
+  "chembl_id": "CHEMBL6",
+  "smiles": "COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1",
+  "smiles_ph74": "COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1",
+  "pesados": 25,
+  "mw": 357.8,
+  "vina_kcal_mol": -10.213,
+  "le": 0.409,
+  "referencia": false,
+  "pchembl": 6.12,
+  "n": 128,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL230"
+ },
+ {
+  "nombre": "naproxeno",
+  "nombre_en": "naproxen",
+  "slug": "naproxeno",
+  "chembl_id": "CHEMBL154",
+  "smiles": "COc1ccc2cc([C@H](C)C(=O)O)ccc2c1",
+  "smiles_ph74": "COc1ccc2cc([C@H](C)C(=O)[O-])ccc2c1",
+  "pesados": 17,
+  "mw": 230.3,
+  "vina_kcal_mol": -8.304,
+  "le": 0.488,
+  "referencia": false,
+  "pchembl": 4.94,
+  "n": 14,
+  "tipos": [
+   "AC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL230"
+ },
+ {
+  "nombre": "ácido acetilsalicílico",
+  "nombre_en": "aspirin",
+  "slug": "acido_acetilsalicilico",
+  "chembl_id": "CHEMBL25",
+  "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+  "smiles_ph74": "CC(=O)Oc1ccccc1C(=O)[O-]",
+  "pesados": 13,
+  "mw": 180.2,
+  "vina_kcal_mol": -6.669,
+  "le": 0.513,
+  "referencia": false,
+  "pchembl": 5.62,
+  "n": 13,
+  "tipos": [
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL230"
+ }
+]

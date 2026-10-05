@@ -1,0 +1,153 @@
+{
+ "clave": "h1r",
+ "tema": 7,
+ "tema_nombre": "Histamina",
+ "diana": "Receptor H1 de histamina",
+ "gen": "HRH1",
+ "pdb": "3RZE",
+ "lig": "5EH",
+ "ligando": "doxepina",
+ "metodo": "Rayos X",
+ "nota": "Asp107 (TM3) con la amina; bolsillo hidrófobo con Trp428 y Phe432.",
+ "cadena_ligando": "A",
+ "smiles_cristal": "CN(C)CC/C=C1\\c2ccccc2COc2ccccc21",
+ "smiles_ph74": "C[NH+](C)CC/C=C1\\c2ccccc2COc2ccccc21",
+ "caja": {
+  "center": [
+   16.8,
+   35.486,
+   22.239
+  ],
+  "size": [
+   20.0,
+   20.0,
+   20.0
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "A",
+   "num": 107,
+   "res": "ASP",
+   "d": 2.74,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 431,
+   "res": "TYR",
+   "d": 3.08,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 112,
+   "res": "THR",
+   "d": 3.21,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 111,
+   "res": "SER",
+   "d": 3.27,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 428,
+   "res": "TRP",
+   "d": 3.42,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 432,
+   "res": "PHE",
+   "d": 3.42,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 158,
+   "res": "TRP",
+   "d": 3.46,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 108,
+   "res": "TYR",
+   "d": 3.48,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 458,
+   "res": "TYR",
+   "d": 3.51,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 198,
+   "res": "ASN",
+   "d": 3.78,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 435,
+   "res": "PHE",
+   "d": 3.84,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 194,
+   "res": "THR",
+   "d": 3.86,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 424,
+   "res": "PHE",
+   "d": 3.88,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 115,
+   "res": "ILE",
+   "d": 3.99,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 454,
+   "res": "ILE",
+   "d": 4.07,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 199,
+   "res": "PHE",
+   "d": 4.2,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [],
+ "redocking": {
+  "vina_kcal_mol": [
+   -11.387
+  ],
+  "rmsd": [
+   0.51
+  ],
+  "exhaustividad": 8,
+  "valido": true
+ },
+ "organismo": "humano"
+}

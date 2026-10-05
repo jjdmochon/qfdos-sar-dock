@@ -1,0 +1,199 @@
+[
+ {
+  "nombre": "carazolol",
+  "nombre_en": "carazolol",
+  "slug": "carazolol",
+  "chembl_id": "CHEMBL324665",
+  "smiles": "CC(C)NCC(O)COc1cccc2[nH]c3ccccc3c12",
+  "smiles_ph74": "CC(C)[NH2+]CC(O)COc1cccc2[nH]c3ccccc3c12",
+  "pesados": 22,
+  "mw": 298.4,
+  "vina_kcal_mol": -10.033,
+  "le": 0.456,
+  "referencia": true,
+  "pchembl": 10.23,
+  "n": 2,
+  "tipos": [
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL210"
+ },
+ {
+  "nombre": "propranolol",
+  "nombre_en": "propranolol",
+  "slug": "propranolol",
+  "chembl_id": "CHEMBL27",
+  "smiles": "CC(C)NCC(O)COc1cccc2ccccc12",
+  "smiles_ph74": "CC(C)[NH2+]CC(O)COc1cccc2ccccc12",
+  "pesados": 19,
+  "mw": 259.3,
+  "vina_kcal_mol": -8.626,
+  "le": 0.454,
+  "referencia": false,
+  "pchembl": 9.12,
+  "n": 15,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL210"
+ },
+ {
+  "nombre": "atenolol",
+  "nombre_en": "atenolol",
+  "slug": "atenolol",
+  "chembl_id": "CHEMBL24",
+  "smiles": "CC(C)NCC(O)COc1ccc(CC(N)=O)cc1",
+  "smiles_ph74": "CC(C)[NH2+]CC(O)COc1ccc(CC(N)=O)cc1",
+  "pesados": 19,
+  "mw": 266.3,
+  "vina_kcal_mol": -7.573,
+  "le": 0.399,
+  "referencia": false,
+  "pchembl": 5.16,
+  "n": 6,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL210"
+ },
+ {
+  "nombre": "timolol",
+  "nombre_en": "timolol",
+  "slug": "timolol",
+  "chembl_id": "CHEMBL499",
+  "smiles": "CC(C)(C)NC[C@H](O)COc1nsnc1N1CCOCC1",
+  "smiles_ph74": "CC(C)(C)[NH2+]C[C@H](O)COc1nsnc1N1CCOCC1",
+  "pesados": 21,
+  "mw": 316.4,
+  "vina_kcal_mol": -8.006,
+  "le": 0.381,
+  "referencia": false,
+  "pchembl": 9.61,
+  "n": 6,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL210"
+ },
+ {
+  "nombre": "isoprenalina",
+  "nombre_en": "isoproterenol",
+  "slug": "isoprenalina",
+  "chembl_id": "CHEMBL434",
+  "smiles": "CC(C)NCC(O)c1ccc(O)c(O)c1",
+  "smiles_ph74": "CC(C)[NH2+]CC(O)c1ccc(O)c(O)c1",
+  "pesados": 15,
+  "mw": 211.3,
+  "vina_kcal_mol": -6.847,
+  "le": 0.456,
+  "referencia": false,
+  "pchembl": 7.89,
+  "n": 41,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL210"
+ },
+ {
+  "nombre": "adrenalina",
+  "nombre_en": "epinephrine",
+  "slug": "adrenalina",
+  "chembl_id": "CHEMBL679",
+  "smiles": "CNC[C@H](O)c1ccc(O)c(O)c1",
+  "smiles_ph74": "C[NH2+]C[C@H](O)c1ccc(O)c(O)c1",
+  "pesados": 13,
+  "mw": 183.2,
+  "vina_kcal_mol": -6.596,
+  "le": 0.507,
+  "referencia": false,
+  "pchembl": 6.44,
+  "n": 7,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL210"
+ },
+ {
+  "nombre": "salbutamol",
+  "nombre_en": "albuterol",
+  "slug": "salbutamol",
+  "chembl_id": "CHEMBL714",
+  "smiles": "CC(C)(C)NCC(O)c1ccc(O)c(CO)c1",
+  "smiles_ph74": "CC(C)(C)[NH2+]CC(O)c1ccc(O)c(CO)c1",
+  "pesados": 17,
+  "mw": 239.3,
+  "vina_kcal_mol": -7.806,
+  "le": 0.459,
+  "referencia": false,
+  "pchembl": 6.29,
+  "n": 15,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL210"
+ },
+ {
+  "nombre": "salmeterol",
+  "nombre_en": "salmeterol",
+  "slug": "salmeterol",
+  "chembl_id": "CHEMBL1263",
+  "smiles": "OCc1cc(C(O)CNCCCCCCOCCCCc2ccccc2)ccc1O",
+  "smiles_ph74": "OCc1cc(C(O)C[NH2+]CCCCCCOCCCCc2ccccc2)ccc1O",
+  "pesados": 30,
+  "mw": 415.6,
+  "vina_kcal_mol": -8.426,
+  "le": 0.281,
+  "referencia": false,
+  "pchembl": 9.41,
+  "n": 45,
+  "tipos": [
+   "AC50",
+   "EC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL210"
+ },
+ {
+  "nombre": "formoterol",
+  "nombre_en": "formoterol",
+  "slug": "formoterol",
+  "chembl_id": "CHEMBL1256786",
+  "smiles": "COc1ccc(CC(C)NCC(O)c2ccc(O)c(NC=O)c2)cc1",
+  "smiles_ph74": "COc1ccc(CC(C)[NH2+]CC(O)c2ccc(O)c(NC=O)c2)cc1",
+  "pesados": 25,
+  "mw": 344.4,
+  "vina_kcal_mol": -9.394,
+  "le": 0.376,
+  "referencia": false,
+  "pchembl": 8.6,
+  "n": 24,
+  "tipos": [
+   "EC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL210"
+ }
+]

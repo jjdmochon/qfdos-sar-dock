@@ -1,0 +1,167 @@
+[
+ {
+  "nombre": "acetazolamida",
+  "nombre_en": "acetazolamide",
+  "slug": "acetazolamida",
+  "chembl_id": "CHEMBL20",
+  "smiles": "CC(=O)Nc1nnc(S(N)(=O)=O)s1",
+  "smiles_ph74": "CC(=O)Nc1nnc(S(N)(=O)=O)s1",
+  "pesados": 13,
+  "mw": 222.3,
+  "vina_kcal_mol": -6.663,
+  "le": 0.513,
+  "referencia": true,
+  "pchembl": 7.92,
+  "n": 200,
+  "tipos": [
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL205"
+ },
+ {
+  "nombre": "metazolamida",
+  "nombre_en": "methazolamide",
+  "slug": "metazolamida",
+  "chembl_id": "CHEMBL19",
+  "smiles": "CC(=O)/N=c1/sc(S(N)(=O)=O)nn1C",
+  "smiles_ph74": "CC(=O)/N=c1/sc(S(N)(=O)=O)nn1C",
+  "pesados": 14,
+  "mw": 236.3,
+  "vina_kcal_mol": -6.241,
+  "le": 0.446,
+  "referencia": false,
+  "pchembl": 7.85,
+  "n": 110,
+  "tipos": [
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL205"
+ },
+ {
+  "nombre": "diclorfenamida",
+  "nombre_en": "dichlorphenamide",
+  "slug": "diclorfenamida",
+  "chembl_id": "CHEMBL17",
+  "smiles": "NS(=O)(=O)c1cc(Cl)c(Cl)c(S(N)(=O)=O)c1",
+  "smiles_ph74": "NS(=O)(=O)c1cc(Cl)c(Cl)c(S(N)(=O)=O)c1",
+  "pesados": 16,
+  "mw": 305.2,
+  "vina_kcal_mol": -7.298,
+  "le": 0.456,
+  "referencia": false,
+  "pchembl": 7.42,
+  "n": 97,
+  "tipos": [
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL205"
+ },
+ {
+  "nombre": "dorzolamida",
+  "nombre_en": "dorzolamide",
+  "slug": "dorzolamida",
+  "chembl_id": "CHEMBL218490",
+  "smiles": "CCN[C@H]1C[C@H](C)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
+  "smiles_ph74": "CC[NH2+][C@H]1C[C@H](C)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
+  "pesados": 19,
+  "mw": 324.4,
+  "vina_kcal_mol": -7.141,
+  "le": 0.376,
+  "referencia": false,
+  "pchembl": 8.05,
+  "n": 99,
+  "tipos": [
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL205"
+ },
+ {
+  "nombre": "brinzolamida",
+  "nombre_en": "brinzolamide",
+  "slug": "brinzolamida",
+  "chembl_id": "CHEMBL220491",
+  "smiles": "CCN[C@H]1CN(CCCOC)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
+  "smiles_ph74": "CC[NH2+][C@H]1CN(CCCOC)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
+  "pesados": 23,
+  "mw": 383.5,
+  "vina_kcal_mol": -6.904,
+  "le": 0.3,
+  "referencia": false,
+  "pchembl": 8.52,
+  "n": 68,
+  "tipos": [
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL205"
+ },
+ {
+  "nombre": "hidroclorotiazida",
+  "nombre_en": "hydrochlorothiazide",
+  "slug": "hidroclorotiazida",
+  "chembl_id": "CHEMBL435",
+  "smiles": "NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O",
+  "smiles_ph74": "NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O",
+  "pesados": 17,
+  "mw": 297.7,
+  "vina_kcal_mol": -7.673,
+  "le": 0.451,
+  "referencia": false,
+  "pchembl": 6.54,
+  "n": 24,
+  "tipos": [
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL205"
+ },
+ {
+  "nombre": "furosemida",
+  "nombre_en": "furosemide",
+  "slug": "furosemida",
+  "chembl_id": "CHEMBL35",
+  "smiles": "NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl",
+  "smiles_ph74": "NS(=O)(=O)c1cc(C(=O)[O-])c(NCc2ccco2)cc1Cl",
+  "pesados": 21,
+  "mw": 330.7,
+  "vina_kcal_mol": -7.61,
+  "le": 0.362,
+  "referencia": false,
+  "pchembl": 6.7,
+  "n": 4,
+  "tipos": [
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL205"
+ },
+ {
+  "nombre": "sulfanilamida",
+  "nombre_en": "sulfanilamide",
+  "slug": "sulfanilamida",
+  "chembl_id": "CHEMBL21",
+  "smiles": "Nc1ccc(S(N)(=O)=O)cc1",
+  "smiles_ph74": "Nc1ccc(S(N)(=O)=O)cc1",
+  "pesados": 11,
+  "mw": 172.2,
+  "vina_kcal_mol": -5.925,
+  "le": 0.539,
+  "referencia": false,
+  "pchembl": 6.62,
+  "n": 76,
+  "tipos": [
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL205"
+ }
+]

@@ -1,0 +1,145 @@
+[
+ {
+  "nombre": "diazepam",
+  "nombre_en": "diazepam",
+  "slug": "diazepam",
+  "chembl_id": "CHEMBL12",
+  "smiles": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+  "smiles_ph74": "CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21",
+  "pesados": 20,
+  "mw": 284.7,
+  "vina_kcal_mol": -8.024,
+  "le": 0.401,
+  "referencia": true,
+  "pchembl": 7.85,
+  "n": 5,
+  "tipos": [
+   "EC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL2095172"
+ },
+ {
+  "nombre": "flunitrazepam",
+  "nombre_en": "flunitrazepam",
+  "slug": "flunitrazepam",
+  "chembl_id": "CHEMBL13280",
+  "smiles": "CN1C(=O)CN=C(c2ccccc2F)c2cc([N+](=O)[O-])ccc21",
+  "smiles_ph74": "CN1C(=O)CN=C(c2ccccc2F)c2cc([N+](=O)[O-])ccc21",
+  "pesados": 23,
+  "mw": 313.3,
+  "vina_kcal_mol": -8.068,
+  "le": 0.351,
+  "referencia": false,
+  "pchembl": 8.66,
+  "n": 3,
+  "tipos": [
+   "EC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL2095172"
+ },
+ {
+  "nombre": "alprazolam",
+  "nombre_en": "alprazolam",
+  "slug": "alprazolam",
+  "chembl_id": "CHEMBL661",
+  "smiles": "Cc1nnc2n1-c1ccc(Cl)cc1C(c1ccccc1)=NC2",
+  "smiles_ph74": "Cc1nnc2n1-c1ccc(Cl)cc1C(c1ccccc1)=NC2",
+  "pesados": 22,
+  "mw": 308.8,
+  "vina_kcal_mol": -9.051,
+  "le": 0.411,
+  "referencia": false,
+  "pchembl": 9.1,
+  "n": 1,
+  "tipos": [
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL2095172"
+ },
+ {
+  "nombre": "midazolam",
+  "nombre_en": "midazolam",
+  "slug": "midazolam",
+  "chembl_id": "CHEMBL655",
+  "smiles": "Cc1ncc2n1-c1ccc(Cl)cc1C(c1ccccc1F)=NC2",
+  "smiles_ph74": "Cc1ncc2n1-c1ccc(Cl)cc1C(c1ccccc1F)=NC2",
+  "pesados": 23,
+  "mw": 325.8,
+  "vina_kcal_mol": -10.981,
+  "le": 0.477,
+  "referencia": false
+ },
+ {
+  "nombre": "lorazepam",
+  "nombre_en": "lorazepam",
+  "slug": "lorazepam",
+  "chembl_id": "CHEMBL580",
+  "smiles": "O=C1Nc2ccc(Cl)cc2C(c2ccccc2Cl)=NC1O",
+  "smiles_ph74": "O=C1Nc2ccc(Cl)cc2C(c2ccccc2Cl)=NC1O",
+  "pesados": 21,
+  "mw": 321.2,
+  "vina_kcal_mol": -7.897,
+  "le": 0.376,
+  "referencia": false
+ },
+ {
+  "nombre": "clonazepam",
+  "nombre_en": "clonazepam",
+  "slug": "clonazepam",
+  "chembl_id": "CHEMBL452",
+  "smiles": "O=C1CN=C(c2ccccc2Cl)c2cc([N+](=O)[O-])ccc2N1",
+  "smiles_ph74": "O=C1CN=C(c2ccccc2Cl)c2cc([N+](=O)[O-])ccc2N1",
+  "pesados": 22,
+  "mw": 315.7,
+  "vina_kcal_mol": -8.267,
+  "le": 0.376,
+  "referencia": false,
+  "pchembl": 9.07,
+  "n": 1,
+  "tipos": [
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL2093872"
+ },
+ {
+  "nombre": "zolpidem",
+  "nombre_en": "zolpidem",
+  "slug": "zolpidem",
+  "chembl_id": "CHEMBL911",
+  "smiles": "Cc1ccc(-c2nc3ccc(C)cn3c2CC(=O)N(C)C)cc1",
+  "smiles_ph74": "Cc1ccc(-c2nc3ccc(C)cn3c2CC(=O)N(C)C)cc1",
+  "pesados": 23,
+  "mw": 307.4,
+  "vina_kcal_mol": -8.763,
+  "le": 0.381,
+  "referencia": false,
+  "pchembl": 6.97,
+  "n": 2,
+  "tipos": [
+   "EC50",
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL2095172"
+ },
+ {
+  "nombre": "flumazenilo",
+  "nombre_en": "flumazenil",
+  "slug": "flumazenilo",
+  "chembl_id": "CHEMBL407",
+  "smiles": "CCOC(=O)c1ncn2c1CN(C)C(=O)c1cc(F)ccc1-2",
+  "smiles_ph74": "CCOC(=O)c1ncn2c1CN(C)C(=O)c1cc(F)ccc1-2",
+  "pesados": 22,
+  "mw": 303.3,
+  "vina_kcal_mol": -8.553,
+  "le": 0.389,
+  "referencia": false,
+  "pchembl": 9.05,
+  "n": 2,
+  "tipos": [
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL2093872"
+ }
+]

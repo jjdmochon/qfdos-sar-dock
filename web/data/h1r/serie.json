@@ -1,0 +1,172 @@
+[
+ {
+  "nombre": "doxepina",
+  "nombre_en": "doxepin",
+  "slug": "doxepina",
+  "chembl_id": "CHEMBL1628227",
+  "smiles": "CN(C)CCC=C1c2ccccc2COc2ccccc21",
+  "smiles_ph74": "C[NH+](C)CCC=C1c2ccccc2COc2ccccc21",
+  "pesados": 21,
+  "mw": 279.4,
+  "vina_kcal_mol": -9.482,
+  "le": 0.452,
+  "referencia": true,
+  "pchembl": 9.6,
+  "n": 5,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL231"
+ },
+ {
+  "nombre": "difenhidramina",
+  "nombre_en": "diphenhydramine",
+  "slug": "difenhidramina",
+  "chembl_id": "CHEMBL657",
+  "smiles": "CN(C)CCOC(c1ccccc1)c1ccccc1",
+  "smiles_ph74": "C[NH+](C)CCOC(c1ccccc1)c1ccccc1",
+  "pesados": 19,
+  "mw": 255.4,
+  "vina_kcal_mol": -9.492,
+  "le": 0.5,
+  "referencia": false,
+  "pchembl": 7.13,
+  "n": 6,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL231"
+ },
+ {
+  "nombre": "clorfenamina",
+  "nombre_en": "chlorpheniramine",
+  "slug": "clorfenamina",
+  "chembl_id": "CHEMBL505",
+  "smiles": "CN(C)CCC(c1ccc(Cl)cc1)c1ccccn1",
+  "smiles_ph74": "C[NH+](C)CCC(c1ccc(Cl)cc1)c1ccccn1",
+  "pesados": 19,
+  "mw": 274.8,
+  "vina_kcal_mol": -8.334,
+  "le": 0.439,
+  "referencia": false,
+  "pchembl": 7.82,
+  "n": 6,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL231"
+ },
+ {
+  "nombre": "prometazina",
+  "nombre_en": "promethazine",
+  "slug": "prometazina",
+  "chembl_id": "CHEMBL643",
+  "smiles": "CC(CN1c2ccccc2Sc2ccccc21)N(C)C",
+  "smiles_ph74": "CC(CN1c2ccccc2Sc2ccccc21)[NH+](C)C",
+  "pesados": 20,
+  "mw": 284.4,
+  "vina_kcal_mol": -7.777,
+  "le": 0.389,
+  "referencia": false,
+  "pchembl": 8.4,
+  "n": 4,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL231"
+ },
+ {
+  "nombre": "cetirizina",
+  "nombre_en": "cetirizine",
+  "slug": "cetirizina",
+  "chembl_id": "CHEMBL1000",
+  "smiles": "O=C(O)COCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1",
+  "smiles_ph74": "O=C([O-])COCC[NH+]1CC[NH+](C(c2ccccc2)c2ccc(Cl)cc2)CC1",
+  "pesados": 27,
+  "mw": 388.9,
+  "vina_kcal_mol": -7.48,
+  "le": 0.277,
+  "referencia": false,
+  "pchembl": 7.4,
+  "n": 12,
+  "tipos": [
+   "AC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL231"
+ },
+ {
+  "nombre": "loratadina",
+  "nombre_en": "loratadine",
+  "slug": "loratadina",
+  "chembl_id": "CHEMBL998",
+  "smiles": "CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1",
+  "smiles_ph74": "CCOC(=O)N1CCC(=C2c3ccc(Cl)cc3CCc3cccnc32)CC1",
+  "pesados": 27,
+  "mw": 382.9,
+  "vina_kcal_mol": -4.596,
+  "le": 0.17,
+  "referencia": false,
+  "pchembl": 6.63,
+  "n": 8,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL231"
+ },
+ {
+  "nombre": "desloratadina",
+  "nombre_en": "desloratadine",
+  "slug": "desloratadina",
+  "chembl_id": "CHEMBL1172",
+  "smiles": "Clc1ccc2c(c1)CCc1cccnc1C2=C1CCNCC1",
+  "smiles_ph74": "Clc1ccc2c(c1)CCc1cccnc1C2=C1CC[NH2+]CC1",
+  "pesados": 22,
+  "mw": 310.8,
+  "vina_kcal_mol": -7.2,
+  "le": 0.327,
+  "referencia": false,
+  "pchembl": 8.73,
+  "n": 11,
+  "tipos": [
+   "AC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL231"
+ },
+ {
+  "nombre": "histamina",
+  "nombre_en": "histamine",
+  "slug": "histamina",
+  "chembl_id": "CHEMBL90",
+  "smiles": "NCCc1c[nH]cn1",
+  "smiles_ph74": "[NH3+]CCc1c[nH]cn1",
+  "pesados": 8,
+  "mw": 111.1,
+  "vina_kcal_mol": -4.64,
+  "le": 0.58,
+  "referencia": false,
+  "pchembl": 6.71,
+  "n": 20,
+  "tipos": [
+   "EC50",
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL231"
+ }
+]

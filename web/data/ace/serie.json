@@ -1,0 +1,127 @@
+[
+ {
+  "nombre": "captopril",
+  "nombre_en": "captopril",
+  "slug": "captopril",
+  "chembl_id": "CHEMBL1560",
+  "smiles": "C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O",
+  "smiles_ph74": "C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)[O-]",
+  "pesados": 14,
+  "mw": 217.3,
+  "vina_kcal_mol": -5.743,
+  "le": 0.41,
+  "referencia": true,
+  "pchembl": 7.68,
+  "n": 37,
+  "tipos": [
+   "EC50",
+   "IC50",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL1808"
+ },
+ {
+  "nombre": "enalaprilato",
+  "nombre_en": "enalaprilat",
+  "slug": "enalaprilato",
+  "chembl_id": "CHEMBL577",
+  "smiles": "C[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O",
+  "smiles_ph74": "C[C@H]([NH2+][C@@H](CCc1ccccc1)C(=O)[O-])C(=O)N1CCC[C@H]1C(=O)[O-]",
+  "pesados": 25,
+  "mw": 348.4,
+  "vina_kcal_mol": -8.073,
+  "le": 0.323,
+  "referencia": false,
+  "pchembl": 8.77,
+  "n": 12,
+  "tipos": [
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL1808"
+ },
+ {
+  "nombre": "enalapril",
+  "nombre_en": "enalapril",
+  "slug": "enalapril",
+  "chembl_id": "CHEMBL578",
+  "smiles": "CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1CCC[C@H]1C(=O)O",
+  "smiles_ph74": "CCOC(=O)[C@H](CCc1ccccc1)[NH2+][C@@H](C)C(=O)N1CCC[C@H]1C(=O)[O-]",
+  "pesados": 27,
+  "mw": 376.5,
+  "vina_kcal_mol": -7.86,
+  "le": 0.291,
+  "referencia": false,
+  "pchembl": 6.85,
+  "n": 8,
+  "tipos": [
+   "IC50"
+  ],
+  "diana_chembl": "CHEMBL1808"
+ },
+ {
+  "nombre": "lisinopril",
+  "nombre_en": "lisinopril",
+  "slug": "lisinopril",
+  "chembl_id": "CHEMBL1237",
+  "smiles": "NCCCC[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1CCC[C@H]1C(=O)O",
+  "smiles_ph74": "[NH3+]CCCC[C@H]([NH2+][C@@H](CCc1ccccc1)C(=O)[O-])C(=O)N1CCC[C@H]1C(=O)[O-]",
+  "pesados": 29,
+  "mw": 405.5,
+  "vina_kcal_mol": -8.302,
+  "le": 0.286,
+  "referencia": false,
+  "pchembl": 8.92,
+  "n": 15,
+  "tipos": [
+   "IC50",
+   "Kd",
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL1808"
+ },
+ {
+  "nombre": "ramiprilato",
+  "nombre_en": "ramiprilat",
+  "slug": "ramiprilato",
+  "chembl_id": "CHEMBL1201365",
+  "smiles": "C[C@H](N[C@@H](CCc1ccccc1)C(=O)O)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCC[C@@H]21",
+  "smiles_ph74": "C[C@H]([NH2+][C@@H](CCc1ccccc1)C(=O)[O-])C(=O)N1[C@H](C(=O)[O-])C[C@@H]2CCC[C@@H]21",
+  "pesados": 28,
+  "mw": 388.5,
+  "vina_kcal_mol": -8.771,
+  "le": 0.313,
+  "referencia": false
+ },
+ {
+  "nombre": "perindoprilato",
+  "nombre_en": "perindoprilat",
+  "slug": "perindoprilato",
+  "chembl_id": "CHEMBL1201368",
+  "smiles": "CCC[C@H](N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCCC[C@@H]21)C(=O)O",
+  "smiles_ph74": "CCC[C@H]([NH2+][C@@H](C)C(=O)N1[C@H](C(=O)[O-])C[C@@H]2CCCC[C@@H]21)C(=O)[O-]",
+  "pesados": 24,
+  "mw": 340.4,
+  "vina_kcal_mol": -7.412,
+  "le": 0.309,
+  "referencia": false
+ },
+ {
+  "nombre": "fosinoprilato",
+  "nombre_en": "fosinoprilat",
+  "slug": "fosinoprilato",
+  "chembl_id": "CHEMBL581",
+  "smiles": "O=C(O)[C@@H]1C[C@@H](C2CCCCC2)CN1C(=O)CP(=O)(O)CCCCc1ccccc1",
+  "smiles_ph74": "O=C([O-])[C@@H]1C[C@@H](C2CCCCC2)CN1C(=O)CP(=O)(O)CCCCc1ccccc1",
+  "pesados": 30,
+  "mw": 435.5,
+  "vina_kcal_mol": -7.857,
+  "le": 0.262,
+  "referencia": false,
+  "pchembl": 8.82,
+  "n": 1,
+  "tipos": [
+   "Ki"
+  ],
+  "diana_chembl": "CHEMBL1808"
+ }
+]

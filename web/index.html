@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QFDOS SAR-Dock</title>
+  <!-- GitHub Pages no permite cabeceras COOP/COEP: este service worker las añade (necesarias para Vina en WASM) -->
+  <script src="coi-serviceworker.js"></script>
+  <meta name="description" content="Panel de relaciones estructura-actividad y docking en el navegador · Química Farmacéutica II · Universidad de Granada">
+  <link rel="icon" href="img/icono.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-in">
+      <div class="marca">
+        <h1>QFDOS SAR-Dock</h1>
+        <span class="badge">Química Farmacéutica II · UGR · 2026/27</span>
+        <span class="grupo" id="cab-grupo"></span>
+      </div>
+      <nav class="tabs" aria-label="Secciones">
+        <a href="#/dianas" data-ruta="dianas">Dianas</a>
+        <a href="#/lab" data-ruta="lab">Laboratorio</a>
+        <a href="#/sar" data-ruta="sar">Tabla SAR</a>
+        <a href="#/cuaderno" data-ruta="cuaderno">Cuaderno</a>
+        <a href="#/guia" data-ruta="guia">Guía e IA</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer>
+    Docking con AutoDock Vina 1.2 compilado a WebAssembly (Webina, Durrant lab) y OpenBabel; visor 3Dmol.js;
+    quimioinformática con RDKit.js; editor JSME. Todo se calcula en tu ordenador: ni las estructuras ni el
+    cuaderno salen de él. Estructuras de RCSB PDB y datos de actividad de ChEMBL.
+  </footer>
+
+  <dialog id="dlg"><div class="dlg" id="dlg-in"></div></dialog>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

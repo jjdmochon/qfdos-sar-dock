@@ -1,0 +1,176 @@
+{
+ "clave": "sert",
+ "tema": 4,
+ "tema_nombre": "Serotonina",
+ "diana": "Transportador de serotonina (SERT)",
+ "gen": "SLC6A4",
+ "pdb": "5I6X",
+ "lig": "8PR",
+ "ligando": "paroxetina",
+ "metodo": "Rayos X",
+ "nota": "Sitio central S1: Asp98 con la amina; subsitios A, B y C.",
+ "cadena_ligando": "A",
+ "smiles_cristal": "Fc1ccc([C@@H]2CCNC[C@H]2COc2ccc3c(c2)OCO3)cc1",
+ "smiles_ph74": "Fc1ccc([C@@H]2CC[NH2+]C[C@H]2COc2ccc3c(c2)OCO3)cc1",
+ "caja": {
+  "center": [
+   -31.847,
+   -20.608,
+   2.119
+  ],
+  "size": [
+   20.0,
+   20.0,
+   20.0
+  ]
+ },
+ "centro_activo": [
+  {
+   "cadena": "A",
+   "num": 336,
+   "res": "SER",
+   "d": 3.09,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 98,
+   "res": "ASP",
+   "d": 3.09,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 501,
+   "res": "VAL",
+   "d": 3.12,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 96,
+   "res": "ALA",
+   "d": 3.16,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 95,
+   "res": "TYR",
+   "d": 3.19,
+   "tipo": "puente de H / iónico"
+  },
+  {
+   "cadena": "A",
+   "num": 172,
+   "res": "ILE",
+   "d": 3.23,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 335,
+   "res": "PHE",
+   "d": 3.24,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 438,
+   "res": "SER",
+   "d": 3.24,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 169,
+   "res": "ALA",
+   "d": 3.44,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 341,
+   "res": "PHE",
+   "d": 3.45,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 439,
+   "res": "SER",
+   "d": 3.59,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 176,
+   "res": "TYR",
+   "d": 3.73,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 338,
+   "res": "GLY",
+   "d": 3.76,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 442,
+   "res": "GLY",
+   "d": 3.79,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 173,
+   "res": "ALA",
+   "d": 4.02,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 337,
+   "res": "LEU",
+   "d": 4.07,
+   "tipo": "hidrófobo"
+  },
+  {
+   "cadena": "A",
+   "num": 497,
+   "res": "THR",
+   "d": 4.36,
+   "tipo": "hidrófobo"
+  }
+ ],
+ "residuos_eliminados": [],
+ "redocking": {
+  "vina_kcal_mol": [
+   -10.106,
+   -9.884,
+   -9.63,
+   -9.316,
+   -9.124,
+   -9.074,
+   -9.066,
+   -9.037,
+   -8.969
+  ],
+  "rmsd": [
+   1.58,
+   2.76,
+   3.09,
+   2.54,
+   7.69,
+   2.88,
+   7.32,
+   6.94,
+   7.66
+  ],
+  "exhaustividad": 8,
+  "valido": true
+ },
+ "organismo": "humano"
+}
